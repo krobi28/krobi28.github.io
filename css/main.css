@@ -12,6 +12,10 @@ header, footer {
     background-color: darkgreen;
     color: white;
     text-align: center;
+    max-width: 940px;
+    max-height: 200px;
+    padding: 5px;
+
 }
 
 header {
@@ -24,10 +28,4 @@ p img {
 
 }
 
-footer{
-    max-width: 940px;
-    max-height: 150px;
-    padding: 5px;
-    
-  }
 
