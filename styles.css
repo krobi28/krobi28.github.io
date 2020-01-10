@@ -24,7 +24,6 @@ header, footer {
 }
 
 #profilepic {
-    max-height: 225px;
     float: right;
     border-radius: 10px;
     box-shadow: 10px 10px 5px rgb(80, 80, 80);
