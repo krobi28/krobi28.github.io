@@ -12,9 +12,11 @@ header, footer {
     background-color: #c1c9e8;
     color: black;
     text-align: center;
+    display: flex;
     max-width: 940px;
     max-height: 100px;
     border-radius: 10px;
+    padding: 1em;
 
 }
 
