@@ -5,7 +5,8 @@ body {
 }
 
 header {
-    font-family: fantasy;
+    font-family: "Goldoni";
+    src: url(Goldoni_DEMO.otf);
 }
 
 header, nav, main, footer {
