@@ -12,8 +12,6 @@ header, footer {
     background-color: #c1c9e8;
     color: black;
     text-align: center;
-    max-width: 940px;
-    max-height: 100px;
     padding: 1em;
     border-radius: 10px;
 
@@ -22,6 +20,7 @@ header, footer {
 img {
     float: right;
     height: 200px;
+    margin: 1.25rem auto;
     border-radius: 10px;
     box-shadow: 10px 10px 5px darkgray; 
 }
