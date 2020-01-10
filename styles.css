@@ -1,14 +1,19 @@
 body {
     font-size: 18px;
     line-height: 1.5;
-    font-family: 'Be Vietnam' , 'Century Gothic', sans-serif;
+    font-family: 'Be Vietnam', 'Century Gothic', sans-serif;
 }
 
-header, nav, main, footer {
+header,
+nav,
+main,
+footer {
     margin: 1.25rem auto;
     max-width: 760px;
 }
-header, footer {
+
+header,
+footer {
     background-color: #c1c9e8;
     color: black;
     text-align: center;
@@ -16,7 +21,6 @@ header, footer {
     max-height: 100px;
     padding: 1em;
     border-radius: 10px;
-
 }
 
 #profilepic {
@@ -38,10 +42,8 @@ hr {
 
 }
 
-a:hover{
-    columns: #001059;;
-    font-weight:bold;
-  }
-  
-
-
+a:hover {
+    columns: #001059;
+    ;
+    font-weight: bold;
+}
