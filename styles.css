@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    font-family: cursive;
+    font-family: fantasy;
 }
 
 header, nav, main, footer {
@@ -24,7 +24,6 @@ header, footer {
 }
 
 #profilepic {
-
     float: right;
     border-radius: 10px;
     box-shadow: 10px 10px 5px rgb(80, 80, 80);
