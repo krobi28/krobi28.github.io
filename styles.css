@@ -9,7 +9,7 @@ header, nav, main, footer {
     max-width: 760px;
 }
 header, footer {
-    background-color: #8b88f2;
+    background-color: #cdd6f7;
     color: black;
     text-align: center;
     max-width: 940px;
@@ -23,6 +23,7 @@ header, footer {
     float: right;
     border-radius: 10px;
     box-shadow: 10px 10px 5px darkgray;
+    max-width: 300px;
 
 }
 
