@@ -8,6 +8,7 @@ let daynames = [
     "Saturday"
 ];
 
+
 let months = [
     "January",
     "February",
@@ -22,6 +23,7 @@ let months = [
     "November",
     "December"
 ];
+
 
 let d = new Date();
 let dayName = daynames[d.getDay()];
