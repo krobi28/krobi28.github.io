@@ -7,9 +7,9 @@ body {
 
 h1 {
     font-family: 'Abril Fatface', cursive;
-    font-size: 2rem;
-    font-weight: bolder;
-    margin: 0.15rem;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 1rem;
     color: rgb(37, 2, 71);
 }
 
@@ -21,13 +21,19 @@ footer {
     max-width: 1000px;
 }
 
+nav {
+    margin: 3rem auto;
+}
+
+
 header,
 footer {
     background-color: rgb(189, 181, 197);
     color: rgb(37, 2, 71);
     text-align: center;
-    padding: 1em;
+    padding: 2rem;
     border-radius: 10px;
+    height: 5rem;
 }
 
 h2 {
@@ -49,4 +55,7 @@ h3 {
 header img {
     width: 200px;
     height: auto;
+    box-shadow: 4px slategray;
+    float: right;
+    border-radius: 10px;
 }
