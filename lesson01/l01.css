@@ -55,7 +55,7 @@ h3 {
 header img {
     width: 200px;
     height: auto;
-    box-shadow: 4px slategray;
+    box-shadow: 0 5px 10px 0 rgb(37, 2, 71);
     float: right;
     border-radius: 10px;
 }
