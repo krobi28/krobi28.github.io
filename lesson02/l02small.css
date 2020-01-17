@@ -81,3 +81,29 @@ h3 {
     border-radius: 10px;
 
 }
+
+/*tablet view*/
+@media only screen and (min-width: 360px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+        border-radius: 10px;
+        display: block;
+    }
+
+    .middle {
+        grid-column: span 1;
+    }
+
+}
+
+/*full screen view*/
+@media only screen and (min-width: 800px) {
+	main {
+        grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.right {
+		grid-column: span 1;
+	}
+}
+

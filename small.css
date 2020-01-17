@@ -1,9 +1,7 @@
 body {
     font-size: 16px;
-    line-height: 1.5;
     font-family: 'Quicksand', sans-serif;
-    color: darkslategray;
-    height: 100%;
+    color: rgb(37, 2, 71);
 }
 
 h1 {
@@ -13,6 +11,19 @@ h1 {
     margin: 0.15rem;
     color: rgb(37, 2, 71);
 }
+
+main {
+    max-width: 767px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+}
+
+main section picture img {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(37, 37, 37);
 
 header,
 nav,

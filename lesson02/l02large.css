@@ -1,10 +1,10 @@
 /*full screen view*/
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 800px) {
 	main {
         grid-template-columns: 1fr 1fr 1fr;
 	}
 
-	section:nth-child(3) {
+	.right {
 		grid-column: span 1;
 	}
 }
