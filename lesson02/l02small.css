@@ -1,6 +1,5 @@
 body {
     font-size: 18px;
-    line-height: 1.5;
     font-family: 'Quicksand', sans-serif;
     color: rgb(28, 24, 31);
     height: 100%;
@@ -61,19 +60,19 @@ footer {
     background-color: rgb(189, 181, 197);
     color: black;
     text-align: center;
-    padding: 0.5em;
+    padding: 1em;
     border-radius: 10px;
 }
 
 h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     margin-bottom: 0.5rem;
 }
 
 h3 {
     font-family: 'Abril Fatface', cursive;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin: 0.15rem;
     color: rgb(37, 2, 71);
