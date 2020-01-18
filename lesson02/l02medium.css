@@ -6,7 +6,7 @@
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     section:nth-child(2) {
@@ -14,7 +14,7 @@
     }
 
     section:nth-child(3) {
-        grid-column: span 1;
+        grid-column: span 2;
     }
 
     main section picture img {
