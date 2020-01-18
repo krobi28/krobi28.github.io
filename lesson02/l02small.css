@@ -4,6 +4,14 @@ body {
     color: rgb(28, 24, 31);
 }
 
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 0.15rem;
+    color: rgb(37, 2, 71);
+}
+
 header,
 nav,
 main,
@@ -12,9 +20,6 @@ footer {
     max-width: 960px;
 }
 
-nav {
-    margin: 3rem auto;
-}
 
 main {
     display: grid;
@@ -25,18 +30,18 @@ main {
 }
 
 main, section {
-    margin: 0.5rem;
     border: 1px solid rgb(37, 2, 71);
     padding: 1rem;
     border-radius: 10px;
 }
 
 
-main, section, picture, img {
+img {
     width: 100%;
     height: auto;
     border: 1px solid rgb(37, 2, 71);
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 header,
@@ -49,13 +54,7 @@ footer {
     height: 5rem;
 }
 
-h1 {
-    font-family: 'Abril Fatface', cursive;
-    font-size: 2rem;
-    font-weight: bolder;
-    margin: 0.15rem;
-    color: rgb(37, 2, 71);
-}
+
 
 h2 {
     font-size: 1.5rem;
@@ -71,6 +70,10 @@ h3 {
     color: rgb(37, 2, 71);
     background-color: rgb(189, 181, 197);
     border-radius: 10px; 
+}
+
+a {
+    padding-bottom: 15px;
 }
 
 
