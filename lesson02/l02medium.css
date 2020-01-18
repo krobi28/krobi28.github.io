@@ -5,6 +5,10 @@
         border-radius: 10px;
     }
 
+    h1 {
+        font-size: 3rem;
+    }
+
     section:nth-child(2) {
         display: block;
     }
