@@ -4,9 +4,6 @@ body {
     color: rgb(28, 24, 31);
 }
 
-/* phone view or small screen*/
-
-
 h1 {
     font-family: 'Abril Fatface', cursive;
     font-size: 2rem;
@@ -20,7 +17,7 @@ nav,
 main,
 footer {
     margin: 1.25rem auto;
-    max-width: 1000px;
+    max-width: 960px;
 }
 
 main {
@@ -34,14 +31,10 @@ main {
 main section {
     margin: 0.5rem;
     border: 1px solid rgb(37, 2, 71);
-    padding: 0 1rem;
+    padding: 1rem;
     border-radius: 10px;
 }
 
-section:nth-child(2){
-    display: none;
-    margin: 0.5rem;
-}
 
 main section picture img {
     width: 100%;
@@ -55,7 +48,7 @@ footer {
     background-color: rgb(189, 181, 197);
     color: black;
     text-align: center;
-    padding: 1em;
+    padding: 1rem;
     border-radius: 10px;
 }
 
@@ -75,43 +68,6 @@ h3 {
     border-radius: 10px; 
 }
 
-/*medium or tablet view*/
-@media only screen and (min-width: 360px) {
-    main {
-        grid-template-columns: 1fr 1fr;
-        border-radius: 10px;
-    }
 
-    section:nth-child(2) {
-        display: block;
-    }
 
-    section:nth-child(3) {
-        grid-column: span 2;
-    }
-
-    main picture {
-        display: block;
-    }
-
-    main section picture img {
-        width: 100%;
-        height: auto;
-        border: 1px solid rgb(37, 2, 71);
-        border-radius: 10px;
-    }
-
-}
-
-/*large, laptop, or desktop view*/
-@media only screen and (min-width: 760px) {
-	main {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    
-    section:nth-child(3) {
-        grid-column: span 1;
-    }
-
-}
 
