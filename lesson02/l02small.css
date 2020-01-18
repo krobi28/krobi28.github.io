@@ -4,20 +4,16 @@ body {
     color: rgb(28, 24, 31);
 }
 
-h1 {
-    font-family: 'Abril Fatface', cursive;
-    font-size: 2rem;
-    font-weight: bolder;
-    margin: 0.15rem;
-    color: rgb(37, 2, 71);
-}
-
 header,
 nav,
 main,
 footer {
     margin: 1.25rem auto;
     max-width: 960px;
+}
+
+nav {
+    margin: 3rem auto;
 }
 
 main {
@@ -28,7 +24,7 @@ main {
     text-align: center;
 }
 
-main section {
+main, section {
     margin: 0.5rem;
     border: 1px solid rgb(37, 2, 71);
     padding: 1rem;
@@ -36,7 +32,7 @@ main section {
 }
 
 
-main section picture img {
+main, section, picture, img {
     width: 100%;
     height: auto;
     border: 1px solid rgb(37, 2, 71);
@@ -45,16 +41,25 @@ main section picture img {
 
 header,
 footer {
+    color: rgb(37, 2, 71);
     background-color: rgb(189, 181, 197);
-    color: black;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 10px;
+    height: 5rem;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 0.15rem;
+    color: rgb(37, 2, 71);
 }
 
 h2 {
     font-size: 1.5rem;
-    font-weight: bolder;
+    font-weight: bold;
     margin-bottom: 0.5rem;
 }
 
