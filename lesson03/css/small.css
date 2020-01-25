@@ -72,7 +72,7 @@ nav li a {
 	font-size: .95rem;
 }
 
-.htable {
+.titlepage {
 	display: grid;
 	grid-gap: 5px;
 	grid-template-columns: 1fr;
@@ -104,7 +104,7 @@ h1 {
 	font-family: 'Abril Fatface', cursive;
 	font-size: 2rem;
 	font-weight: bolder;
-	color: rgb(37, 2, 71);
+	color: rgb(37, 27, 50);
 }
 
 h2 {
@@ -118,7 +118,7 @@ h3 {
 	font-size: 1.5rem;
 	font-weight: bold;
 	color: rgb(189, 181, 197);
-	background-color: rgb(37, 27, 71);
+	background-color: rgb(37, 27, 50);
 	text-align: center;
 	border-radius: 10px;
 	padding: 10px;
@@ -126,20 +126,92 @@ h3 {
 
 h4 {
 	font-size: 1rem;
-	color: rgb(37, 27, 71);
+	color: rgb(37, 27, 50);
 }
 
 h5 {
-	font-size: .7rem;
+	font-size: .8rem;
 	font-style: italic;
 }
 
+table {
+	width: 100%;
+	height: auto;
+	padding: 1rem;
+	
 
+}
+
+th {
+	text-align: left;
+	font-weight: bolder;
+}
+
+table, th, td {
+	border: 1px solid rgb(28, 49, 68);
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+}
+
+#header {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 32px;
+	color: #251b32;
+}
+
+#pnavigation {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	color: #b4ae99;
+}
+
+#fnavigation {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	color: #251b32;
+}
+
+#h1 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 32px;
+	color: #251b32;
+}
+
+#h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 24px;
+	color: #596f62;
+}
+
+#h3 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 24px;
+	color: #596f62;
+}
+
+#h4 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	color: #251b32;
+}
+
+#h5 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 13px;
+	color: #1c3144;
+}
+
+#ptext {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	color: #1c3144;
+}
 
 .ttable {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	border: 1px rgb(28, 49, 68);
+	text-align: left;
 
 }
 
@@ -147,8 +219,15 @@ h5 {
 	margin: 10px;
 }
 
-.persona {
-	width: 100%;
-	height: auto;
-	max-width: 30em;
+.targaud {
+	text-align: left;
+	border: 1px rgb(28, 49, 68);
+	padding: 1rem;
+	max-width: 80%;
 }
+
+.targaud h3 {
+	text-align: left;
+}
+
+
