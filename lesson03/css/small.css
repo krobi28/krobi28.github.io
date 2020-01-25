@@ -1,0 +1,146 @@
+body {
+	font-size: 16px;
+	font-family: 'Quicksand', sans-serif;
+	color: rgb(28, 24, 31);
+
+}
+
+/* header css*/
+header,
+footer {
+	background-color: rgb(189, 181, 197);
+	padding: 10px;
+	color: rgb(37, 2, 71);
+	border-radius: 10px;
+	max-width: 960px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-flow: column;
+
+}
+
+header h1 {
+	text-align: center;
+	text-shadow: 0 2px 10px rgb(89, 111, 98);
+}
+
+header h4 {
+	text-align: center;
+}
+
+header,
+nav,
+main,
+footer {
+	margin: auto;
+	max-width: 960px;
+
+}
+
+nav {
+	background-color: rgb(28, 49, 68);
+	border-radius: 10px;
+	box-shadow: 0 2px 15px rgb(68, 64, 71);
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+nav a:hover {
+	background-color: rgb(189, 181, 197);
+	color: rgb(37, 2, 71);
+}
+
+.active {
+	color: yellow;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li a {
+	color: rgb(180, 174, 153);
+	padding: .75rem;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-size: .95rem;
+}
+
+.htable {
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr;
+	font-size: .8rem;
+	margin-bottom: 5px;
+}
+
+main section {
+	border: 1px solid rgb(28, 49, 68);
+	padding: 1rem;
+	border-radius: 10px;
+	text-align: center;
+}
+
+main section img {
+	display: flex;
+	margin: .5rem;
+	width: 100%;
+	height: auto;
+}
+
+
+footer {
+	flex: 0 1 100%;
+
+}
+
+h1 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 2rem;
+	font-weight: bolder;
+	color: rgb(37, 2, 71);
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: rgb(89, 111, 98);
+}
+
+h3 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: rgb(189, 181, 197);
+	background-color: rgb(37, 27, 71);
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+h4 {
+	font-size: 1rem;
+	color: rgb(37, 27, 71);
+}
+
+h5 {
+	font-size: .7rem;
+	font-style: italic;
+}
+
+.span2 {
+	min-width: 25rem;
+}
+
+.ttable {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	border: 1px rgb(28, 49, 68);
+	
+}

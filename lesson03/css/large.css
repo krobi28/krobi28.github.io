@@ -1,0 +1,24 @@
+@media only screen and (min-width: 60em) {
+
+    nav a {
+        font-size: 1.2rem;
+        display: flex;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    article:nth-child(3) {
+        grid-column: span 1;
+    }
+
+    .center {
+        display: flex;
+    }
+    
+    .logo {
+        max-width: 33em;
+    }
+
+}
