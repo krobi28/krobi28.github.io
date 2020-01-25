@@ -139,7 +139,6 @@ table {
 	height: auto;
 	padding: 1rem;
 	
-
 }
 
 th {
@@ -212,11 +211,22 @@ th, td {
 
 .ttable {
 	text-align: left;
+	max-width: 860px;
+	height: auto;
 
 }
 
+.ttable th {
+	font-size: 1.2rem;
+	font-weight: bolder;
+	font-style: italic;
+	background-color: #b4ae99;
+	text-align: center;
+}
+
 .center section {
-	margin: 10px;
+	padding: 3px;
+	margin: 5px;
 }
 
 .targaud {
@@ -226,8 +236,8 @@ th, td {
 	max-width: 900px;
 }
 
-.targaud h3 {
-	text-align: left;
+.targaud li {
+	margin-bottom: 10px;
 }
 
 
