@@ -25,4 +25,8 @@
         min-width: 33em;
     }
 
+    .targaud {
+        max-width: 900px;
+    }
+
 }
