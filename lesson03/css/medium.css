@@ -19,14 +19,6 @@
         font-size: 1rem;
     }
 
-    .titlepage {
-        grid-template-columns: 1fr 1fr;
-    
-
-    article:nth-child(3) {
-        grid-column: span 2;
-    }
-
     main picture {
         display: block;
     }

@@ -229,6 +229,11 @@ th, td {
 	margin: 5px;
 }
 
+.center section picture img {
+	width: 90%;
+	height: auto;
+}
+
 .targaud {
 	text-align: left;
 	border: 1px rgb(28, 49, 68);
