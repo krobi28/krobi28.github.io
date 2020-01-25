@@ -134,13 +134,21 @@ h5 {
 	font-style: italic;
 }
 
-.span2 {
-	min-width: 25rem;
-}
+
 
 .ttable {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	border: 1px rgb(28, 49, 68);
-	
+
+}
+
+.center section {
+	margin: 10px;
+}
+
+.persona {
+	width: 100%;
+	height: auto;
+	max-width: 30em;
 }

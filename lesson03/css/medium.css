@@ -18,7 +18,7 @@
         font-size: 1rem;
     }
 
-    main {
+    .htable {
         grid-template-columns: 1fr 1fr;
     
 

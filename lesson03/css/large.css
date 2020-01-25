@@ -5,7 +5,7 @@
         display: flex;
     }
 
-    main {
+    .htable {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
@@ -19,6 +19,10 @@
     
     .logo {
         max-width: 33em;
+    }
+
+    .span2 {
+        min-width: 33em;
     }
 
 }
