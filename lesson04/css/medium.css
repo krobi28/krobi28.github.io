@@ -9,6 +9,10 @@
     }
 
     .headings h1 {
+        font-size: 4rem;
+    }
+
+    .section3 h2 {
         font-size: 3rem;
     }
 
@@ -36,6 +40,7 @@
     .navigation li:first-child {
         display: none;
     }
+    
 
     .summary {
         font-size: 2rem;
@@ -48,6 +53,8 @@
         text-align: center;
         font-size: 1.5rem;
         margin: 7px;
+        font-size: 2rem;
+        padding: 20px;
     }
 
     .section4 {
@@ -63,6 +70,10 @@
     .section3 {
         display: flex;
         flex-direction: row;
+    }
+
+    .section3 h2 {
+        font-size: 1.75rem;
     }
 
     .newsImg img {
