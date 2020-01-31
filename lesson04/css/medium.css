@@ -1,0 +1,78 @@
+/* Larger viewports */
+@media only screen and (min-width: 32.5em) {
+    header img {
+        width: 100%;
+    }
+
+    main footer {
+        width: 960px;
+     
+      
+    }
+
+    .headings h1 {
+        font-size: 3rem;
+    }
+
+    .motto {
+        letter-spacing: 1.5pt;
+        font-size: larger;
+        margin-left: 17px;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        /* needed because of state in small view */
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        color: #bdb5c5;
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .summary {
+        font-size: 2rem;
+    }
+
+    .section2 {
+        display: flex;
+        justify-content: center;
+        border: 1px dotted #1c3144;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 7px;
+    }
+
+    .section4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contact {
+        font-size: 2rem;
+    }
+
+    .section3 {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .newsImg img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+            max-width: 60%;
+    }
+
+}
