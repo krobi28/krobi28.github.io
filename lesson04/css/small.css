@@ -15,14 +15,14 @@ header {
 	background-color: #bdb5c5;
 	padding: 5px 0;
 	display: flex;
-	align-items:center;
-	justify-content:center;
+	align-items: center;
+	justify-content: center;
 }
 
 header picture img {
 	width: 80px;
 	height: auto;
-	
+
 }
 
 main {
@@ -31,8 +31,6 @@ main {
 	margin: auto;
 	padding: 20px;
 }
-
-
 
 main h3 {
 	display: flex;
@@ -44,7 +42,6 @@ main h3 {
 .headings {
 	display: flex;
 	flex-direction: column;
-	
 }
 
 .motto {
@@ -74,8 +71,6 @@ main h3 {
 	padding: 10px;
 	display: flex;
 	align-items: center;
-	
-
 }
 
 .section2 {
@@ -100,7 +95,7 @@ main h3 {
 }
 
 
-.newsImg img{
+.newsImg img {
 	max-width: 30%;
 	padding: 20px;
 	justify-content: center;
@@ -113,11 +108,9 @@ main h3 {
 	padding: 20px;
 	border: 1px dotted #1c3144;
 	margin: auto;
-	
 }
 
-
-.section4 img{
+.section4 img {
 	max-width: 30%;
 	padding: 20px;
 }
@@ -129,20 +122,16 @@ main h3 {
 	align-items: center;
 }
 
-
-
 footer {
 	background-color: #bdb5c5;
 	padding: 5px 0;
 	display: flex;
 	flex-direction: column;
-	align-items:center;
-	justify-content:space-evenly;
+	align-items: center;
+	justify-content: space-evenly;
 	width: 90%;
 	margin: auto;
-
 }
-
 
 footer span {
 	font-size: 1.6rem;
@@ -151,19 +140,22 @@ footer span {
 
 nav {
 	margin: 0 auto;
-	background-color:#251B32;
+	background-color: #251B32;
 }
 
 .navigation {
 	list-style: none;
 	padding: 0;
 }
+
 .navigation li:first-child {
 	display: block;
 }
+
 .navigation li {
 	display: none;
 }
+
 .navigation a {
 	display: block;
 	color: #bdb5c5;
@@ -171,6 +163,7 @@ nav {
 	text-align: left;
 	text-decoration: none;
 }
+
 .navigation a:hover {
 	color: #596f62;
 	background-color: #b4ae99;
@@ -183,7 +176,3 @@ nav {
 .responsive li {
 	display: block;
 }
-
-
-
-
