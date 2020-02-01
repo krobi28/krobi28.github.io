@@ -1,5 +1,5 @@
-var newDate = document.currentdate;
-document.getElementById("currentdate").innerHTML=new Date().toLocaleDateString(navigator.language,{weekday:'long',year:'numeric',month:'long',day:'numeric'});
+var newDate = document.lastModified;
+document.getElementById("currentdate").innerHTML=new Date().toLocaleDateString('en-GB',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
 
 const hambutton = document.querySelector(".ham");
 hambutton.addEventListener("click",toggleMenu,false);

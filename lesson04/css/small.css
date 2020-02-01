@@ -32,11 +32,15 @@ main {
 	justify-content: space-evenly;
 }
 
-main h3 {
+main h2 {
 	display: flex;
 	font-size: 1.75rem;
 	font-weight: bolder;
 	justify-content: center;
+}
+
+h2 {
+	font-family: 'Abril Fatface', cursive;
 }
 
 .headings {
