@@ -27,9 +27,9 @@ header picture img {
 
 main {
 	width: 90%;
-	display: block;
-	margin: auto;
+	display: flex;
 	padding: 20px;
+	justify-content: space-evenly;
 }
 
 main h3 {
@@ -58,6 +58,7 @@ main h3 {
 	background-color: #b4ae99;
 	border: 1px solid #1c3144;
 	margin: 7px;
+	
 }
 
 .section1 img {
@@ -75,6 +76,7 @@ main h3 {
 
 .section2 {
 	display: none;
+	margin: 7px;
 }
 
 .forecast {
@@ -87,7 +89,6 @@ main h3 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-color: #b4ae99;
 	border: 1px solid #1c3144;
 	font-size: .8rem;
 	margin: 7px;
@@ -106,36 +107,39 @@ main h3 {
 	flex-direction: column-reverse;
 	justify-content: center;
 	padding: 20px;
-	border: 1px dotted #1c3144;
-	margin: auto;
+	background-color: #b4ae99;
+	border: 1px solid #1c3144;
+	margin: 7px;
 }
 
 .section4 img {
 	max-width: 30%;
 	padding: 20px;
+	align-items: center;
 }
 
 .contact {
 	font-size: 1.5rem;
 	padding: 5px 0;
 	display: flex;
-	align-items: center;
+
 }
 
 footer {
 	background-color: #bdb5c5;
-	padding: 5px 0;
+	padding: 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-evenly;
 	width: 90%;
-	margin: auto;
+	font-size: .8rem;
+	margin: 7px;
+	justify-content: space-evenly;
 }
 
 footer span {
 	font-size: 1.6rem;
-	border-bottom: 1px solid #251B32;
+	border-bottom: 1px #251B32;
 }
 
 nav {
