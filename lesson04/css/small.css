@@ -27,7 +27,7 @@ header picture img {
 
 main {
 	width: 90%;
-	display: flex;
+	display: block;
 	padding: 20px;
 	justify-content: space-evenly;
 }
