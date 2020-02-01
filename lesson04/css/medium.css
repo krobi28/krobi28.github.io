@@ -8,14 +8,14 @@
         width: 90%;
     }
 
+    main h2 {
+        font-size: 2.75rem;
+    }
+
     .headings h1 {
         font-size: 4rem;
     }
 
-    .section3 h2 {
-        font-size: 3rem;
-    
-    }
 
     .motto {
         letter-spacing: 1.2pt;
@@ -43,46 +43,34 @@
     }
     
 
-    .summary {
+    .summary h3 {
         font-size: 2rem;
+
     }
 
     .section2 {
         display: flex;
-        flex-basis: 85% auto;
         border: 1px solid #1c3144;
         text-align: center;
         font-size: 1.5rem;
-        margin: 7px;
+        margin: auto;
         font-size: 2rem;
         padding: 20px;
-    }
-
-    .section4 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        border: 1px #1c3144;
-        background-color: white;
-        border: 1px solid #1c3144;
-       
-    }
-
-    .contact {
-        font-size: 2rem;
-        align-items: center;
     }
 
     .section3 {
         display: flex;
         flex-direction: row;
+        padding: 20px;
         background-color: #b4ae99;
         border: 1px solid #1c3144;
         text-align: center;
     }
 
-    .section3 h2 {
-        font-size: 1.75rem;
+    .section3 h3 {
+        font-size: 2rem;
+        text-align: center;
+    
     }
 
     .newsImg img {
@@ -92,4 +80,27 @@
          max-width: 60%;
     }
 
+
+    .section4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+        border: 1px #1c3144;
+        background-color: white;
+        border: 1px solid #1c3144; 
+    }
+
+    .section4 img {
+        max-width: 30%;
+        height: auto;
+    }
+
+    .contact h3 {
+        font-size: 2rem;
+        align-items: center;
+    }
+
+    
+   
 }
