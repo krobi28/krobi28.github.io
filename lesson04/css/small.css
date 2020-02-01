@@ -4,17 +4,14 @@ body {
 	color: #1c3144;
 }
 
-.headings h1 {
-	font-family: 'Abril Fatface', cursive;
-	font-size: 1.5rem;
-	color: #251B32;
-	margin: 0 0 0 17px;
-}
+
 
 header {
 	background-color: #bdb5c5;
 	padding: 5px 0;
-	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 header picture img {
@@ -23,11 +20,32 @@ header picture img {
 
 }
 
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 1.4rem;
+	color: #251B32;
+	margin: 0 0 0 17px;
+}
+
+.motto {
+	font-style: italic;
+	letter-spacing: .8pt;
+	color: #1c3144;
+	text-align: center;
+	margin: auto;
+	font-size: .7rem;
+}
+
 main {
 	width: 90%;
 	display: block;
 	padding: 20px;
-	justify-content: space-evenly;
+	margin: auto;
 }
 
 h2 {
@@ -48,19 +66,8 @@ h3 {
 	font-size: 1.3rem;
 }
 
-.headings {
-	display: flex;
-	flex-direction: column;
-}
 
-.motto {
-	font-style: italic;
-	letter-spacing: .8pt;
-	color: #1c3144;
-	text-align: center;
-	margin: auto;
-	font-size: .7rem;
-}
+
 
 .section1 {
 	display: flex;
@@ -146,7 +153,7 @@ footer {
 	align-items: center;
 	width: 90%;
 	font-size: .8rem;
-	margin: 7px;
+	margin: auto;
 	justify-content: space-evenly;
 }
 
