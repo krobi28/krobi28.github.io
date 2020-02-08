@@ -16,13 +16,15 @@ div#message {
 	text-shadow: 0px 4px 6px #b4ae99;	
 }
 
-div .showbanner {
+.hidebanner {
+	display: none;
+}
+
+.showbanner {
 	display: block;
 }
 
-div .hidebanner {
-	display: none;
-}
+
 
 header {
 	background-color: #bdb5c5;

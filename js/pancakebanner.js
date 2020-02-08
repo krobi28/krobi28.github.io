@@ -4,7 +4,7 @@ const dayNumber = today.getDay();
 
 const element = document.getElementById ("message");
 
-if (dayNumber ==5) {
+if (dayNumber ==6) {
     element.classList.add("showbanner");
 }
 else {
