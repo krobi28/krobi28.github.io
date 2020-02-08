@@ -12,7 +12,6 @@ div#message {
 	font-size: .8rem;
 	margin: auto;
 	text-shadow: 0px 4px 6px #b4ae99;
-	transition: all ease-in-out 1s;
 }
 
 div .showme {
@@ -141,7 +140,7 @@ h4 {
 }
 
 .weathersummary h4 {
-	text-decoration: underline 1px white;
+	text-decoration: underline white;
 	font-weight: bolder;
 }
 
@@ -217,9 +216,7 @@ h4 {
 
 .contact h3{
 	font-size: 1.5rem;
-	margin: auto;
-	justify-content: left;
-
+	text-align: left;
 }
 
 footer {
@@ -282,26 +279,9 @@ nav {
 .wrapper {
 	display: inline-flex;
 	text-align: center;
-	justify-content: center;
+
   }
-  .wrapper i {
-	padding: 10px;
-	text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
-	transition: all ease-in-out 150ms;
-  }
-  .wrapper a:nth-child(1) {
-	color: #dd4b39;
-  }
-  .wrapper a:nth-child(2) {
-	color: #4867AA;
-  }
-  .wrapper a:nth-child(3) {
-	color: #1DA1F2;
-  }
-  .wrapper i:hover {
-	margin-top: -3px;
-	text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
-  }
+  
 
 
 
