@@ -1,7 +1,6 @@
 const today = new Date();
 
 const dayNumber = today.getDay();
-console.log (dayNumber);
 
 const element = document.getElementById ("message");
 

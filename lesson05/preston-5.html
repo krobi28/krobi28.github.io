@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lesson 04: Preston Town Page </title>
     <meta name="description" content="Preston Town Page">
-    <link rel="shortcut icon" href="/images/favicon.ico" <link
-        href="https://fonts.googleapis.com/css?family=Abril+Fatface%7cQuicksand&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface%7cQuicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/normaliz.css">
     <link rel="stylesheet" href="/lesson05/css/small5.css">
     <link rel="stylesheet" href="/lesson05/css/medium5.css">
@@ -17,7 +17,6 @@
 
 <body>
     <div id="message"> Preston Pancakes in the Park! <br> 9:00 a.m. every Saturday at the city park pavillion. </div>
-    <script src="/js/pancakebanner"></script>
     <header>
         <picture>
             <img src="/images/wheatherlogo.gif" alt="The Weather You Like it or Not Logo">
@@ -42,16 +41,15 @@
 
     <main>
         <h2>Preston, Idaho</h2>
-        <div class="container1">
-        <img src="/images/heroimg.gif"
-                alt="picture of a small town with a river and a horse."</div>
-            <section class="weathersummary">
-            <h3> Weather Summary</h3>
-            <p>Current: <span id="current">Sunny</span></p>
-            <p>Temperature: <span id="temperature">60 ºF</span></p>
-            <p>Wind Chill: <span id="windchill">ºF</span></p>
-            <p>Humidity: <span id="humidity">43%</span></p>
-            <p>Wind Speed: <span id="wspeed">8mph</span></p>
+        <div class="section1">
+            <img src="/images/heroimg.gif" alt="picture of a small town with a river and a horse." </div> <section
+                class="weathersummary">
+            <h4> Weather Summary</h4>
+            <p>Current: <span id="current"> Sunny</span></p>
+            <p>Temperature: <span id="temperature"> 60 ºF</span></p>
+            <p>Wind Chill: <span id="windchill"> ºF</span></p>
+            <p>Humidity: <span id="humidity"> 43%</span></p>
+            <p>Wind Speed: <span id="wspeed"> 8mph</span></p>
 
             </section>
 
@@ -94,22 +92,32 @@
         <section class="section3">
 
             <h3>Weather News</h3>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Exercitationem debitis ullam ducimus architecto. Accusamus,
-                eos animi vitae perferendis unde voluptatem doloremque aliquam
-                dolore aliquid aperiam vero quisquam! Odio, error officia!</p>
+            
+           <img class="newsImg" src="/images/snowstorm.gif" alt="Winter snow landscape">
+           
+           <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Exercitationem debitis ullam ducimus architecto. Accusamus,
+            eos animi vitae perferendis unde voluptatem doloremque aliquam
+            dolore aliquid aperiam vero quisquam! Odio, error officia!</p>
 
-            <div class="newsImg">
-                <img src="/images/snowstorm.gif"
-                    alt="Winter snow landscape">
-            </div>
+
         </section>
         <section class="section4">
 
             <img src="/images/citymap.gif" alt="image of a city map">
 
             <div class="contact">
-                <h3>Contact Information</h3>
+                <h3>Contact Us</h3>
+                <p>&#9755 <span id="address">300 Preston Path<br>Preston, ID 83263</span></p>
+                <p>&#9990 <span id="phone">209-555-1234</span></p>
+                <p>&#9993 <span id="email">wylion@gmail.com</span></p>
+                <link rel="stylesheet"
+                    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+                <div class="wrapper">
+                    <a target="_blank" href="googleplus.com"><i class="fa fa-3x fa-google-plus"></i></a>
+                    <a target="_blank" href="facebook.com"><i class="fa fa-3x fa-facebook-square"></i></a>
+                    <a target="_blank" href="twitter.com"><i class="fa fa-3x fa-twitter-square"></i>
+                </div></a>
             </div>
 
         </section>
@@ -121,6 +129,8 @@
         <span id="currentdate"></span>
         &copy; 2020 | Karen Robison | California | Terms of Use
         <script src="/js/currentdate.js"></script>
+        <script src="/js/hamMenu.js"></script>
+        <script src="/js/pancakebanner.js"></script>
     </footer>
 </body>
 
