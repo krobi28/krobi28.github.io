@@ -104,9 +104,10 @@
         display: block;
         padding: 20px;
         background-color: #b4ae99;
+       
         text-align: center;
         margin: auto;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .section3 h3 {
@@ -118,6 +119,9 @@
     .section3 .newsImg {
          max-width: 40%;
          float: right;
+         margin-top: 20px;
+	    margin-left: 10px;
+	    margin-bottom: 10px;
 
     }
 
