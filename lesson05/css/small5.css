@@ -90,6 +90,7 @@ h4 {
 .section1 {
 	position: relative;
 	margin: auto;
+	min-height: 250px;
 }
 
 .section1 img{
@@ -188,9 +189,9 @@ h4 {
 
 
 .section3 .newsImg {
-	max-width: 30%;
+	max-width: 50%;
 	height: auto;
-	float: right;
+	justify-content: center;
 
 }
 
@@ -200,6 +201,8 @@ h4 {
 	padding: 20px;
 	background-color: #b4ae99;
 	margin: auto;
+	clear: both;
+
 }
 
 .section4 img {
@@ -207,7 +210,8 @@ h4 {
 	max-width: 50%;
 	height: auto;
 	padding: 5px;
-	margin: auto;
+	margin: 0px;
+	margin-right: 10px;
 }
 
 .contact h3{
