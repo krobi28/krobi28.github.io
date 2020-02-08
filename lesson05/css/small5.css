@@ -112,7 +112,7 @@ h4 {
 	border-style: outset;
 	color: #bdb5c5;
 	padding: 10px;
-	box-shadow: 0 0 30px #1c3144;
+	box-shadow: 0 2px 15px #1c3144;
 	opacity: .9;
 	max-width: 200px;
 	height: auto;
@@ -195,9 +195,10 @@ h4 {
 
 
 .section3 .newsImg {
-	max-width: 50%;
+	max-width: 70%;
 	height: auto;
 	margin: auto;
+	box-shadow: 0 2px 15px #1c3144;
 
 }
 
@@ -217,7 +218,8 @@ h4 {
 	height: auto;
 	padding: 5px;
 	margin: 0px;
-	margin-right: 10px;
+	margin-right: 20px;
+	box-shadow: 0 2px 15px #1c3144;
 }
 
 .section4 h3{
