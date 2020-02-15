@@ -10,9 +10,9 @@
     <link rel="shortcut icon" href="/images/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface%7cQuicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/normaliz.css">
-    <link rel="stylesheet" href="/lesson06/css/small6.css">
-    <link rel="stylesheet" href="/lesson06/css/medium6.css">
-    <link rel="stylesheet" href="/lesson06/css/large6.css">
+    <link rel="stylesheet" href="css/small6.css">
+    <link rel="stylesheet" href="css/medium6.css">
+    <link rel="stylesheet" href="css/large6.css">
 </head>
 
 <body>
@@ -31,7 +31,7 @@
         <ul class="navigation">
             <li><a class="ham" href="#">&#9776; Menu</a></li>
             <li><a href="#">| Home |</a></li>
-            <li><a class="active" href="/lesson05/preston-5.html">| Preston |</a></li>
+            <li><a class="active" href="preston-6.html">| Preston |</a></li>
             <li><a href="#">| Soda Springs |</a></li>
             <li><a href="#">| Fish Haven |</a></li>
             <li><a href="#">| Storm Center |</a></li>
@@ -52,10 +52,10 @@
             <section class="weathersummary">
             <h4> Weather Summary</h4>
             <p>Current: <span id="current"> Sunny</span></p>
-            <p>Temperature: <span id="temperature"> 48 ºF</span></p>
-            <p>Wind Chill: <span id="windchill"></span></p>
-            <p>Humidity: <span id="humidity"> 43%</span></p>
-            <p>Wind Speed: <span id="wspeed"> 8 mph</span></p>
+            <p>Temperature: <span id="temperature"> 48</span> ºF</p>
+            <p>Wind Chill: <span id="windchill"></span> ºF</p>
+            <p>Humidity: <span id="humidity"> 43</span>%</p>
+            <p>Wind Speed: <span id="wspeed">8</span>mph</p>
 
             </section>
 
@@ -99,7 +99,11 @@
         <h3>Weather News</h3>
         <section class="section3">
 
-            <img class="newsImg" src="/images/snowstorm.gif" alt="Winter snow landscape">
+            <img class="newsImg" src="/images/snowstorm1200.jpg" alt="Winter snow landscape"
+            sizes= "50vw"
+            srcset="/images/snowstorm400.jpg 399w,
+                    /images/snowstorm800.jpg 799w,
+                    /images/snowstorm1200.jpg 1199w">
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed nunc ac metus volutpat ullamcorper.
                 Praesent ut ex imperdiet, congue libero eu, lacinia orci. Donec laoreet nulla eget orci ullamcorper, sit
                 amet elementum ipsum elementum. Ut vel urna luctus, euismod urna vitae, efficitur ante. Quisque
@@ -122,7 +126,7 @@
         </section>
         <section class="section4">
 
-            <img src="/images/citymap.gif" alt="image of a city map">
+            <img src="/images/citymap.jpg" alt="image of a city map">
 
             <section class="contact">
                 <h3>Contact Us</h3>

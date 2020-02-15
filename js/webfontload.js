@@ -1,8 +1,7 @@
 WebFont.load({
     google: {
         families: [
-            "Abril+Fatface"]
-            ["Quicksand"
+            "Abril+Fatface", "Quicksand"
         ]
     }
 });
