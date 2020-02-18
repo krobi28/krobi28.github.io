@@ -1,0 +1,24 @@
+
+main picture {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;  
+}
+
+h1 {
+    text-align: center;
+}
+
+picture img [data-src]{
+    filter: blur(.2em);
+    background-color: #bdb5c5;
+}
+
+picture img {
+    max-width: 300px;
+    height: auto;
+    filter: blur(0em);
+    transition: filter 2s;
+}
