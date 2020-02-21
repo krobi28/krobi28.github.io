@@ -1,9 +1,26 @@
 body {
 	font-size: 16px;
 	font-family: 'Quicksand', sans-serif;
-    color: #1c3144;
+	color: #1c3144;
 }
 
+div#message {
+	background-color: #251B32;
+	color: #bdb5c5;
+	padding: 10px;
+	text-align: center;
+	font-size: .8rem;
+	margin: auto;
+	text-shadow: 0px 2px 4px #b4ae99;
+}
+
+.hidebanner {
+	display: none;
+}
+
+.showbanner {
+	display: block;
+}
 
 header {
 	background-color: #bdb5c5;
@@ -59,10 +76,10 @@ main h2 {
 }
 
 .gallery {
-    display: grid;
-    grid-template-columns: 1fr;
+	display: grid;
+	grid-template-columns: 1fr;
 	grid-gap: 10px;
-  
+
 }
 
 figure {
@@ -73,7 +90,161 @@ figcaption {
 	margin: 10px;
 	font-size: .8em;
 	color: #1c3144;
- }
+}
+
+h3 {
+	text-align: center;
+	font-size: 1.5rem;
+	text-shadow: 3px 3px 5px #1c3144;
+}
+
+h4 {
+	font-size: 1.35rem;
+	text-decoration: underline white;
+}
+
+main picture.myphoto {
+	width: 90%;
+	margin: auto;
+}
+
+main picture.myphoto img {
+	width: 100%;
+}
+
+.section1 {
+	position: relative;
+	margin: auto;
+	min-height: 300px;
+
+}
+
+.section1 img {
+	max-width: 100%;
+}
+
+.weathersummary {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: #1c3144;
+	border: white;
+	border-style: outset;
+	color: #bdb5c5;
+	padding: 10px;
+	box-shadow: 0 2px 15px #1c3144;
+	opacity: .9;
+	max-width: 200px;
+	height: auto;
+	text-align: center;
+	line-height: .9;
+}
+
+.weathersummary #current {
+	color: white;
+	font-style: italic;
+}
+
+.weathersummary #temperature {
+	color: white;
+	font-style: italic;
+}
+
+.weathersummary #windchill {
+	color: white;
+	font-style: italic;
+}
+
+.weathersummary #humidity {
+	color: white;
+	font-style: italic;
+}
+
+.weathersummary #wspeed {
+	color: white;
+	font-style: italic;
+}
+
+.weathersummary h4 {
+	text-decoration: underline white;
+	font-weight: bolder;
+}
+
+.section2 {
+	display: none;
+	margin: auto;
+}
+
+.flex {
+	display: none;
+	flex-direction: row;
+	padding: 5px;
+	text-align: center;
+}
+
+.day {
+	padding: 5px;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+.flex div img {
+	max-width: 80px;
+	width: 100%;
+	height: auto;
+}
+
+.high {
+	display: none;
+	font-size: 60%;
+	padding: 0 5px 5px;
+	text-align: center;
+
+}
+
+.section3 {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	border: 2px solid #1c3144;
+	padding: 20px;
+	font-size: .9rem;
+	margin: auto;
+	text-align: center;
+}
+
+
+.section3 .newsImg {
+	max-width: 70%;
+	height: auto;
+	margin: auto;
+	box-shadow: 0 2px 15px #1c3144;
+
+}
+
+.section4 {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	background-color: #b4ae99;
+	margin: auto;
+	clear: both;
+
+}
+
+.section4 img {
+	display: none;
+	max-width: 50%;
+	height: auto;
+	padding: 5px;
+	margin: 0px;
+	margin-right: 20px;
+	box-shadow: 0 2px 15px #1c3144;
+}
+
+.section4 h3 {
+	text-align: left;
+}
 
 footer {
 	background-color: #bdb5c5;
@@ -136,7 +307,7 @@ nav {
 	display: inline-flex;
 	text-align: center;
 
-  }
+}
 
 
 /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
@@ -148,7 +319,7 @@ nav {
 
 /*---- Clearfix: Force an Element not to collapse ----*/
 .clearfix:after {
-    content:"";
-    display: table;
-    clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }

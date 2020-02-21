@@ -13,7 +13,7 @@ div#message {
 	text-align: center;
 	font-size: .8rem;
 	margin: auto;
-	text-shadow: 0px 2px 4px #b4ae99;	
+	text-shadow: 0px 2px 4px #b4ae99;
 }
 
 .hidebanner {
@@ -23,8 +23,6 @@ div#message {
 .showbanner {
 	display: block;
 }
-
-
 
 header {
 	background-color: #bdb5c5;
@@ -91,23 +89,23 @@ h4 {
 }
 
 main picture.myphoto {
-    width: 90%;
-    margin: auto;
+	width: 90%;
+	margin: auto;
 }
 
 main picture.myphoto img {
-    width: 100%;
+	width: 100%;
 }
 
 .section1 {
 	position: relative;
 	margin: auto;
 	min-height: 300px;
-	
+
 }
 
-.section1 img{
-	max-width: 100%;	
+.section1 img {
+	max-width: 100%;
 }
 
 .weathersummary {
@@ -158,8 +156,8 @@ main picture.myphoto img {
 }
 
 .section2 {
-    display: none;
-    margin: auto;
+	display: none;
+	margin: auto;
 }
 
 .flex {
@@ -229,7 +227,7 @@ main picture.myphoto img {
 	box-shadow: 0 2px 15px #1c3144;
 }
 
-.section4 h3{
+.section4 h3 {
 	text-align: left;
 }
 
@@ -294,7 +292,7 @@ nav {
 	display: inline-flex;
 	text-align: center;
 
-  }
+}
 
 
 /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
@@ -306,7 +304,7 @@ nav {
 
 /*---- Clearfix: Force an Element not to collapse ----*/
 .clearfix:after {
-    content:"";
-    display: table;
-    clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
