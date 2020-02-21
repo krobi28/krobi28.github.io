@@ -65,6 +65,16 @@ main h2 {
   
 }
 
+figure {
+	margin: auto;
+}
+
+figcaption {
+	margin: 10px;
+	font-size: .8em;
+	color: #1c3144;
+ }
+
 footer {
 	background-color: #bdb5c5;
 	padding: 20px;
