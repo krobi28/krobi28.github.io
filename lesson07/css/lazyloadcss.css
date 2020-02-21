@@ -12,13 +12,13 @@ h1 {
 }
 
 picture img [data-src]{
-    filter: blur(.2em);
+    filter: blur(1px);
     background-color: #bdb5c5;
 }
 
 picture img {
     max-width: 300px;
     height: auto;
-    filter: blur(0em);
     transition: filter 2s;
 }
+
