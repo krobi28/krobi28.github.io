@@ -153,6 +153,7 @@ main picture.myphoto img {
 .weathersummary h4 {
 	text-decoration: underline white;
 	font-weight: bolder;
+	max-width: 100%;
 }
 
 .section2 {
