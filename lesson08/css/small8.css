@@ -166,9 +166,6 @@ main picture.myphoto img {
 
 .section1 {
 	position: relative;
-	margin: auto;
-	min-height: 300px;
-
 }
 
 .section1 img {
@@ -177,19 +174,25 @@ main picture.myphoto img {
 
 .weathersummary {
 	position: absolute;
-	top: 10px;
-	left: 10px;
+	top: 2rem;
+	left: 2rem;
 	background-color: #1c3144;
 	border: white;
 	border-style: outset;
 	color: #bdb5c5;
 	padding: 10px;
 	box-shadow: 0 2px 15px #1c3144;
-	opacity: .9;
-	max-width: 200px;
+	opacity: .8;
+	max-width: 100%;
 	height: auto;
 	text-align: center;
 	line-height: .9;
+}
+
+.weathersummary p {
+	font-size: .9em;
+	margin: 5px;
+
 }
 
 .weathersummary #current {
@@ -219,9 +222,9 @@ main picture.myphoto img {
 
 .weathersummary h4 {
 	text-decoration: underline white;
-	font-weight: bolder;
-}
+	margin: 5px;
 
+}
 .section2 {
 	display: none;
 	margin: auto;
@@ -302,23 +305,31 @@ main picture.myphoto img {
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #445ba9;
+    border: 1px solid #1c3144;
     border-radius: 10px;
     padding: .5rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+   
 
 }
 
 form legend {
-    color: #445ba9;
+    color: #1c3144;
     margin: 0 1rem;
-    padding: 0 .5rem;
+    padding: 1rem;
+}
+
+legend {
+    color: #1c3144;
 }
 
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
-    font-size: .8rem;
+    color: #251b32;
+    font-size: 1.2rem;
+    text-decoration: underline;
 
 }
 
@@ -326,24 +337,55 @@ form label.top input, form label.top select{
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
-    border: solid 1px #999;
+    border: solid 1px #1c3144;
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
-    max-width: 20rem;
-    background-color: rgba(0,0,0,0.1);
+   
 }
 
-form label.sbs {
+form label.report, form div {
     display: block;
-    padding: .75rem 0;
-    color: #555;
+    padding-top: 1rem;
+    color: #251b32;
+    font-size: 1.2rem;
+}
+
+form label.report input, form label.report select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    padding: .75rem;
+    border: solid 1px #1c3144;
+    border-radius: 4px;
+   
+}
+
+datalist {
+    border: #1c3144;
+    border-radius: 4px;
+    background-color: #bdb5c5;
+    display: none;
+}
+
+form label.rating {
+    display: flex;
+    align-items: center;
+}
+
+#ratingvalue {
+	margin: 0 15px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px 12px;
+    resize: none;
 }
 
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
-    color: white;
+    background-color: #251b32;
+    color: #bdb5c5;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: o o 2rem 2%;

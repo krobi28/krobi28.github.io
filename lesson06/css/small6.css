@@ -99,9 +99,6 @@ main picture.myphoto img {
 
 .section1 {
 	position: relative;
-	margin: auto;
-	min-height: 300px;
-
 }
 
 .section1 img {
@@ -118,11 +115,17 @@ main picture.myphoto img {
 	color: #bdb5c5;
 	padding: 10px;
 	box-shadow: 0 2px 15px #1c3144;
-	opacity: .9;
+	opacity: .8;
 	max-width: 100%;
 	height: auto;
 	text-align: center;
 	line-height: .9;
+}
+
+.weathersummary p {
+	font-size: .9em;
+	margin: 5px;
+
 }
 
 .weathersummary #current {
@@ -152,7 +155,7 @@ main picture.myphoto img {
 
 .weathersummary h4 {
 	text-decoration: underline white;
-	font-weight: bolder;
+	margin: 5px;
 
 }
 
