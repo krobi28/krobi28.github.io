@@ -64,6 +64,13 @@
         grid-gap: 10px;
     }
 
-    
+   /*----------- FORM ------------*/
+   
+   form label.rating {
+    display: flex;
+    flex-direction: row;
+   
+   
+}
    
 }

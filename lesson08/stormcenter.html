@@ -40,12 +40,11 @@
     </nav>
 
     <main class="clearfix">
-        <h1>Report a Weather Event</h1>
+        <h2>Report a Weather Event</h2>
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Reporter Information</legend>
-                <label class="top">First Name* (5 or more letters)<input type="text" name="fname" pattern="[A-Za-9] {1,5}" required></label>
-                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Full Name* (5 or more letters)<input type="text" name="fname" pattern="[A-Za-9] {1,5}" required></label>
                 <label class="top">Phone*<input type="tel" name="phone" placeholder="###-###-####" required></label>
                 <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required>
                 </label>
@@ -71,7 +70,7 @@
                         </datalist></label>
 
                         <div>Storm Severity</div><br>
-                        <label class="rating" for="rating">Rating: &nbsp;&nbsp;&nbsp;
+                        <label class="rating" for="rating">Rating:  &nbsp;&nbsp;&nbsp;
                             <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
                                 oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                             <span id="ratingvalue">5</span>
@@ -121,13 +120,12 @@
     <footer>
         <span id="currentdate"></span>
         &copy; 2020 | Karen Robison | California | Terms of Use
-        <script src="/js/currentdate.js"></script>
-        <script src="/js/hamMenu.js"></script>
-        <script src="/js/pancakebanner.js"></script>
+        
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="/js/webfontload.js"></script>
-    <script src="/js/windchill.js"></script>
+    <script src="/js/currentdate.js"></script>
+    <script src="/js/hamMenu.js"></script>
     <script src="/lesson07/js/lazyloadjs.js"></script>
     <script src="/lesson08/js/scripts.js"></script>
 </body>
