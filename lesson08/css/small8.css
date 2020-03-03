@@ -441,5 +441,5 @@ footer span {
 .clearfix:after {
 	content: "";
 	display: table;
-	clear: both;
+    clear: both;
 }

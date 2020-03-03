@@ -19,11 +19,11 @@ fetch(requestURL)
         card.appendChild(h2);
 
         let birth = document.createElement('p');
-        birth.textContent = "Date of Birth: "+ prophets[i].birthdate;
+        birth.textContent = "Birth Date: "+ prophets[i].birthdate;
         card.appendChild(birth);
 
         let place = document.createElement('p');
-        place.textContent = "Place of Birth: "+ prophets[i].birthplace;
+        place.textContent = "Birth Place: "+ prophets[i].birthplace;
         card.appendChild(place);
 
         let aux = i + 1;

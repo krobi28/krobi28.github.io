@@ -38,6 +38,7 @@ main {
 }
 
 .cards p {
+    font-size: .8em;
 	margin: 2px;
 
 }
@@ -78,25 +79,22 @@ footer {
 
 }  
 
-/* Larger viewports */
-@media only screen and (min-width: 35rem) {
-   
-h1 {
-    font-size: 3em;
-}
-
-    div.cards {
-        display: grid;
-        grid-template-columns:1fr 1fr;
-        grid-gap: 10px;
-    }
-
 
   /* Largest viewports */
 @media only screen and (min-width: 64rem) {
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1.1em;
+    }
+
     div.cards {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 10px;
         max-width: 960px;
+        margin: auto;
     }  
+}
