@@ -1,0 +1,30 @@
+/* Largest viewports */
+@media only screen and (min-width: 64rem) {
+    
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        max-width: 960px;
+    }
+
+    figure:hover {
+        box-shadow: 0 0 50px 0;
+      
+    }
+
+    form label.sbs {
+        padding: .4rem 0;
+        
+    }
+
+    div.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        max-width: 960px;
+        margin: auto;
+    }  
+    
+
+}

@@ -1,0 +1,93 @@
+/* Larger viewports */
+@media only screen and (min-width: 35rem) {
+   
+    /*----------- HEADER --------------*/
+     header img {
+         width: 100%;
+         height: auto;
+     }
+ /*----------- MAIN --------------*/
+     main footer {
+         width: 90%;
+         margin: auto;
+     }
+ 
+     main h2 {
+         font-size: 2.75rem;
+     }
+ 
+     div#message {
+         font-size: 1.75rem;
+         font-weight: bold;
+     }
+ 
+     .headings h1 {
+         font-size: 3rem;
+         margin: 0 0 0 17px;
+     }
+ 
+ 
+     .motto {
+         letter-spacing: 1.2pt;
+         font-size: .9rem;
+         margin-left: 20px;
+         font-style: italic;
+     }
+ /*----------- NAVIGATION --------------*/
+     .navigation {
+         display: flex;
+     }
+ 
+     .navigation li {
+         display: block;
+         /* needed because of state in small view */
+         flex: 1 1 100%;
+     }
+ 
+     .navigation li a {
+         color: #bdb5c5;
+         text-align: center;
+     }
+ 
+     .navigation li:first-child {
+         display: none;
+     }
+ 
+     h3 {
+         font-size: 2rem;
+ 
+     }
+ 
+     .gallery {
+         display: grid;
+         grid-template-columns:1fr 1fr;
+         grid-gap: 10px;
+     }
+ 
+    /*----------- FORM ------------*/
+    
+    form label.rating {
+     display: flex;
+     flex-direction: row;
+    
+    
+ }
+
+ div.homepage {
+     display: flex;
+     flex-wrap: wrap;
+     max-width: 80%;
+     margin: .5rem auto;
+ }
+
+ div.cards {
+    display: flex;
+    flex-direction: row;
+   
+}  
+
+div.cards :nth-child(odd) {
+    flex-direction: row-reverse;
+}
+    
+ }
