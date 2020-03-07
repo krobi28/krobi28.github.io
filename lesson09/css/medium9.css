@@ -1,5 +1,5 @@
 /* Larger viewports */
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 650px) {
    
     /*----------- HEADER --------------*/
      header img {
@@ -22,16 +22,16 @@
      }
  
      .headings h1 {
-         font-size: 3rem;
+         font-size: 2rem;
          margin: 0 0 0 17px;
      }
  
  
      .motto {
-         letter-spacing: 1.2pt;
-         font-size: .9rem;
+         letter-spacing: .8pt;
+         font-size: .6rem;
          margin-left: 20px;
-         font-style: italic;
+
      }
  /*----------- NAVIGATION --------------*/
      .navigation {
@@ -72,22 +72,42 @@
     
     
  }
-
- div.homepage {
-     display: flex;
-     flex-wrap: wrap;
-     max-width: 80%;
-     margin: .5rem auto;
- }
-
+/*------------------homepage -------------*/
  div.cards {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
    
 }  
 
 div.cards :nth-child(odd) {
     flex-direction: row-reverse;
 }
+
+div.cards :nth-child(even) {
+    flex-direction: row;
+}
+
+.topstory h1 {
+    text-align: left;
+}
+
+
+.topstory {
+    display: block;
+	border: 2px solid #1c3144;
+	padding: 20px;
+	font-size: 1.1rem;
+	margin: auto;
+	
+}
+
+.topstory .newsImg {
+    max-width: 60%;
+    float: right;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
     
  }

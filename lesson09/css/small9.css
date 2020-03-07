@@ -63,7 +63,7 @@ header picture img {
 	color: #1c3144;
 	text-align: center;
 	margin: auto;
-	font-size: .7rem;
+	font-size: .5rem;
 }
 
 /*----------- NAVIGATION --------------*/
@@ -163,49 +163,74 @@ main picture.myphoto {
 main picture.myphoto img {
 	width: 100%;
 }
+/*------------ homepage -------------*/
+.homepage {
+    text-align: center;
+}
 
 .cards section {
-    text-align: center;
-    border-radius: 5px;
     box-shadow: 8px 8px 8px 0 #1c3144;
-    padding: 8px;
-    max-width: 30rem;
-    margin: 15px;
-	display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
+    padding: 20px;
+    margin: 10px;
     background-color: #bdb5c5;
+    display: flex;
+    flex-direction: column;
     
     
 }
 
 .cards img {
-    width: 90%;
+    width: 95%;
     height: auto;
     margin: auto;
+    display: flex;
+    padding: 10px;
+
 
 }
 
 .cards h2 {
-    font-size: 2rem;
-    padding: 5px 15px 5px 5px;
+    font-size: 1.5rem;
+    padding: 5px;
     text-decoration: underline #1c3144;
-    text-align: center;
+  
     text-shadow: 2px 2px 4px #596f62;
-    margin: 0 auto;
+   
 }
 
 .cards h3 {
     font-size: .7rem;
     font-style: italic;
     text-shadow: none;
-    padding: ;
-    margin: 0 auto;
+    padding: 2px;
+
+    text-align: center;
 }
 
 .cards p {
+    text-align: center;
     margin: 2px;
 }
+
+
+.topstory {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 2px solid #1c3144;
+	padding: 20px;
+	font-size: .9rem;
+	margin: auto;
+	text-align: center;
+}
+
+.topstory .newsImg {
+    max-width: 70%;
+	height: auto;
+	margin: auto;
+	box-shadow: 0 2px 15px #1c3144;
+}
+
 
 .section1 {
 	position: relative;
