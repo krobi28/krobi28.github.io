@@ -6,6 +6,11 @@
     
     }
 
+    .motto {
+        font-size: .9rem;
+       
+    }
+
     .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
