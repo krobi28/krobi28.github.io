@@ -6,7 +6,7 @@ fetch(apiURL)
     .then((jsObject) => {
 
         const currentTemp = document.querySelector('#temperature');
-        const weatherIcon = document.querySelector('imagesrc');
+        
 
         currentTemp.textContent = jsObject.main.temp;
 

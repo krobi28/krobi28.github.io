@@ -306,11 +306,20 @@ main picture.myphoto img {
 	text-align: center;
 }
 
-.day {
+#forecast1 #forecast2 #forecast3 #forecast4 #forecast5 {
 	padding: 5px;
 	font-size: 90%;
 	font-weight: bold;
 }
+
+#imagesrc {
+    align-items: center;
+}
+
+#high {
+    align-items: center;
+}
+
 
 .flex div img {
 	max-width: 80px;
