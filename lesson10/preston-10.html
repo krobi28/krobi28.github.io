@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eastern Idaho Weather </title>
+    <meta name="description" content="Preston Town Page">
+    <link rel="shortcut icon" href="/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface%7cQuicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normaliz.css">
+    <link rel="stylesheet" href="/lesson10/css/small10.css">
+    <link rel="stylesheet" href="/lesson10/css/medium10.css">
+    <link rel="stylesheet" href="/lesson10/css/large10.css">
+</head>
+
+<body>
+    <div id="message"> Preston Pancakes in the Park! <br> 9:00 a.m. every Saturday at the city park pavillion. </div>
+    <header>
+        <picture>
+            <img src="/images/wheatherlogo600.png" alt="The Weather You Like it or Not Logo">
+        </picture>
+        <section class="headings">
+            <h1>Weather You Like it or Not</h1>
+            <div class="motto">because we can't choose the weather; but we need to know what's happening!</div>
+        </section>
+    </header>
+
+    <nav class="clearfix">
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="/lesson09/index.html">| Home |</a></li>
+            <li><a class="active" href="/lesson10/preston-10.html">| Preston |</a></li>
+            <li><a href="#">| Soda Springs |</a></li>
+            <li><a href="#">| Fish Haven |</a></li>
+            <li><a href="/lesson08/stormcenter.html">| Storm Center |</a></li>
+            <li><a href="/lesson07/gallery.html">| Gallery |</a></li>
+        </ul>
+    </nav>
+
+    <main class="clearfix">
+        <h2>Preston, Idaho</h2>
+        <div class="section1">
+            <picture class="myphoto">
+                <source srcset="/images/sunsetFarmS.jpg" media="(max-width: 400px)">
+                <source srcset="/images/sunsetFarmM.jpg" media="(max-width: 799px)">
+                <source srcset="/images/sunsetFarmL.jpg" media="(min-width: 800px)">
+                <img src="/images/sunsetFarmL.jpg" alt="Well groomed farm field at sunset.">
+
+            </picture>
+            <section class="weathersummary">
+                <h4> Weather Summary</h4>
+                <p>Currently: <span id="current"> </span></p>
+                <p>Temperature: <span id="temperature"> </span></p>
+                <p>Wind Chill: <span id="windchill"></span></p>
+                <p>Humidity: <span id="humidity"></span></p>
+                <p>Wind Speed: <span id="wspeed"></span></p>
+
+            </section>
+
+        </div>
+
+
+        <section class="section2">
+
+            <h3>5 Day Forecast</h3>
+
+            <div class="flex">
+                <div class="col">
+                    <span id="forecast1"></span>
+                    <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon">
+                    <span id="high"></span>
+                </div>
+                <div class="col">
+                    <span id="forecast2"></span>
+                    <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon">
+                    <span id="high"></span>
+                </div>
+                <div class="col">
+                    <span id="forecast3"></span>
+                    <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon">
+                    <span id="high"></span>
+                </div>
+                <div class="col">
+                    <span id="forecast4"></span>
+                    <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon">
+                    <span id="high"></span>
+                </div>
+                <div class="col">
+                    <span id="forecast5"></span>
+                    <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon">
+                    <span id="high"></span>
+                </div>
+            </div>
+
+        </section>
+
+        <h3>Weather News</h3>
+        <section class="section3">
+
+            <img class="newsImg" src="/images/bearL.jpg" alt="Ariel view of bear in Yellowstone." sizes="50vw" 
+                    srcset="/images/bearS.jpg 399w,
+                    /images/bearM.jpg 799w,
+                    /images/bearL.jpg 1199w">
+                    <div class="title"><h3>First confirmed grizzly bear sighting of 2020 in Yellowstone National Park</h3>
+                    <a href="https://www.eastidahonews.com/2020/03/yellowstone-national-park-announces-first-confirmed-grizzly-bear-sighting-of-2020/">original article here</a></div>
+            <p> MAMMOTH HOT SPRINGS, Wyoming — The first confirmed grizzly bear sighting in Yellowstone National Park of
+                2020 occurred on Saturday, March 7. The bear was observed from the air by biologists during a radio
+                telemetry flight near Grand Prismatic Spring just one day before last year’s first sighting.
+
+                Male grizzlies come out of hibernation in early March. Females with cubs emerge in April and early May.
+                When bears emerge from hibernation, they look for food and often feed on elk and bison that died over
+                the winter. Sometimes, bears will react aggressively while feeding on carcasses.
+
+                All of Yellowstone National Park is bear country: from the deepest backcountry to the boardwalks around
+                Old Faithful. Protect yourself and the bears people come here to enjoy by following these guidelines:
+                <ul class="article">
+                <li>Prepare for a bear encounter.</li>
+                <li>Carry bear spray, know how to use it, and make sure it’s accessible.</li>
+                <li>Stay alert.</li>
+                <li>Hike or ski in groups of three or more, stay on maintained trails, and make noise. Avoid hiking at dusk,
+                dawn, or at night.</li>
+                <li>Do not run if you encounter a bear.</li>
+                <li>Stay 100 yards away from black and grizzly bears. Use binoculars, a telescope, or telephoto lens to get
+                a closer look.</li>
+                <li>Store food, garbage, barbecue grills, and other attractants in hard-sided vehicles or bear-proof food
+                storage boxes.</li>
+                <li>Report bear sightings and encounters to a park ranger immediately.
+                Learn more about bear safety.</li>
+                </ul>
+
+                “Now that bears are emerging from winter dens, visitors should be excited for the chance to view and
+                photograph them, but they should also treat bears with respect and caution,” said Kerry Gunther, the
+                park’s bear management biologist. “Many visitors think bears are ravenously hungry and more likely to
+                attack people for food after emerging from hibernation, but almost all bear attacks result from surprise
+                encounters when hikers startle bears at close distances and the bears react with defensive aggression.
+                Hikers, skiers, and snowshoers should travel in groups of three or more, carry bear spray, and make
+                noise.”
+
+                While firearms are allowed in the park, the discharge of a firearm by visitors is a violation of park
+                regulations. Bear spray has proven effective in deterring bears defending cubs and food sources. It can
+                also reduce the number of bears killed by people in self-defense.
+
+                The park restricts certain visitor activities in locations where there is a high density of elk and
+                bison carcasses and lots of bears. Restrictions will begin in some bear management areas on Tuesday,
+                March 10.</p>
+
+
+        </section>
+        <section class="section4">
+
+            <div class="townmap"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21585.964655649204!2d-111.89792085866507!3d42.09974160024545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e1!3m2!1sen!2sus!4v1584065436453!5m2!1sen!2sus"
+                    width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe alt="google maps image of Preston, ID"></div>
+
+            <section class="contact">
+                <h3>Contact Us</h3>
+                <p>&#9755; <span id="address">300 Preston Path<br>Preston, ID 83263</span></p>
+                <p>&#9990; <span id="phone">208-555-1234</span></p>
+                <p>&#9993; <span id="email">wylion@gmail.com</span></p>
+
+                <div class="wrapper">
+                    <img src="/images/instagram-widget.png" alt="Instagram link">
+                    <img src="/images/youtube-widget.png" alt="YouTube link">
+                    <img src="/images/facebook-widget.png" alt="Facebook link">
+                </div>
+            </section>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <span id="currentdate"></span>
+        &copy; 2020 | Karen Robison | California | Terms of Use
+
+    </footer>
+    <script src="/js/currentdate.js"></script>
+    <script src="/js/hamMenu.js"></script>
+    <script src="/js/pancakebanner.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/js/webfontload.js"></script>
+    <script src="/js/windchill.js"></script>
+    <script src="/lesson10/js/weatherapi.js"></script>
+    <script src="/lesson10/js/forecast.js"></script>
+</body>
+
+</html>
