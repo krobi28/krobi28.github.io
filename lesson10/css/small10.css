@@ -264,7 +264,7 @@ main picture.myphoto img {
 
 }
 
-.weathersummary #current {
+.weathersummary #conditions {
 	color: white;
 	font-style: italic;
 }
@@ -303,10 +303,11 @@ main picture.myphoto img {
 	display: none;
 	flex-direction: row;
 	padding: 5px;
-	text-align: center;
+    text-align: center;
+    justify-content: center;
 }
 
-#forecast1 #forecast2 #forecast3 #forecast4 #forecast5 {
+#day1 #day2 #day3 #day4 #day5 {
 	padding: 5px;
 	font-size: 90%;
 	font-weight: bold;
@@ -319,6 +320,12 @@ main picture.myphoto img {
 #high {
     align-items: center;
 }
+
+.section2 .flex {
+    font-size: 2rem;
+}
+
+
 
 
 .flex div img {
