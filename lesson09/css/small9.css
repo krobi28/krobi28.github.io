@@ -221,12 +221,12 @@ main picture.myphoto img {
 	padding: 20px;
 	font-size: .9rem;
 	margin: auto;
-	text-align: center;
+	text-align: left;
 }
 
 
 .topstory .newsImg {
-    max-width: 70%;
+    max-width: 50%;
 	height: auto;
 	margin: auto;
 	box-shadow: 0 2px 15px #1c3144;

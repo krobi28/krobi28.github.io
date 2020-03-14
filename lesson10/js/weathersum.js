@@ -7,9 +7,9 @@ fetch(apiURL)
 
 
         document.getElementById('conditions').textContent = weatherInfo.weather[0].main; //Current Conditions
-        document.getElementById('temperature').textContent = weatherInfo.main.temp + " ˚F"; //current temperature
-        document.getElementById('humidity').textContent = weatherInfo.main.humidity + " %"; //humidity
-        document.getElementById('wspeed').textContent = weatherInfo.main.windSpeed + " mph"; //wind speed
+        document.getElementById('temperature').textContent = weatherInfo.main.temp; //current temperature
+        document.getElementById('humidity').textContent = weatherInfo.main.humidity; //humidity
+        document.getElementById('wspeed').textContent = weatherInfo.main.windSpeed; //wind speed
 
 
         const currentTemp = document.querySelector('#temperature');
@@ -17,9 +17,8 @@ fetch(apiURL)
         const windSpeed = document.querySelector('#wspeed');
 
 
-        currentTemp.textContent = weatherInfo.main.temp;
-
-        humidity.textContent = weatherInfo.main.humidity;
-        windSpeed.textContent = weatherInfo.wind.speed;
+        currentTemp.textContent = weatherInfo.main.temp.toFixed(0) + " ºF";
+        humidity.textContent = weatherInfo.main.humidity + " %";
+        windSpeed.textContent = weatherInfo.wind.speed.toFixed(0) + " mph";
 
     });
