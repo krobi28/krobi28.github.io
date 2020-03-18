@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eastern Idaho Weather Picture Gallery</title>
+    <meta name="description" content="Preston Town Page">
+    <link rel="shortcut icon" href="/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface%7cQuicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normaliz.css">
+    <link rel="stylesheet" href="/lesson11/css/small.css">
+    <link rel="stylesheet" href="/lesson11/css/medium.css">
+    <link rel="stylesheet" href="/lesson11/css/large.css">
+</head>
+
+<body>
+
+    <header>
+        <picture>
+            <img src="/images/wheatherlogo600.png" alt="The Weather You Like it or Not Logo">
+        </picture>
+        <section class="headings">
+            <h1>Weather You Like it or Not</h1>
+            <div class="motto">because we can't choose the weather; but we need to know what's happening!</div>
+        </section>
+    </header>
+
+    <nav class="clearfix">
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="/lesson11/index.html">| Home |</a></li>
+            <li><a href="/lesson11/preston.html">| Preston |</a></li>
+            <li><a href="#">| Fish Haven |</a></li>
+            <li><a href="#">| Soda Springs |</a></li>
+            <li><a class="active" href="/lesson11/stormcenter.html">| Storm Center |</a></li>
+            <li><a href="/lesson11/gallery.html">| Gallery |</a></li>
+        </ul>
+    </nav>
+
+    <main class="clearfix">
+        <h2>Report a Weather Event</h2>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Reporter Information</legend>
+                <label class="top">Full Name* (5 or more letters)<input type="text" name="fname" pattern="[A-Za-9] {1,5}" required></label>
+                <label class="top">Phone*<input type="tel" name="phone" placeholder="###-###-####" required></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required>
+                </label>
+                <label class="top">Zip Code*<input type="text" id="num" name="num" required>
+                </label>
+                <label class="top">Website<input type="url" name="url" placeholder="http//"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Report a Weather Event</legend>
+                <div>Date of Event</div>
+                <label class="report"> <input type="date" name="date" required>
+                    </label>
+                <div>Type of Weather Event</div>    
+                    <label class="report"><input list="weatherEventlist" id="weatherEvent" name="weatherEvent" required />
+                    </label>
+                        <label><datalist id="weatherEventlist">
+                            <option value="Flash Flood">
+                            <option value="Hail">
+                            <option value="Hurricane">
+                            <option value="Thunderstorm">
+                            <option value="Tornado">
+                        </datalist></label>
+
+                        <div>Storm Severity</div><br>
+                        <label class="rating" for="rating">Rating:  &nbsp;&nbsp;&nbsp;
+                            <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                                oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                            <span id="ratingvalue">5</span>
+
+                        </label>
+
+                       <label> <datalist id="tickmarks">
+                            <option value="0">
+                            <option value="1">
+                            <option value="2">
+                            <option value="3">
+                            <option value="4">
+                            <option value="5">
+                            <option value="6">
+                            <option value="7">
+                            <option value="8">
+                            <option value="9">
+                            <option value="10">
+                        </datalist></label>
+                        <div>Storm Region</div>
+                        <label class="report" for="stormRegion">
+                        <input list="stormRegionlist" id="stormRegion" name="stormRegion" required /></label>
+                        <label><datalist id="stormRegionlist">
+                            <option value="Preston">
+                            <option value="Soda Springs">
+                            <option value="Fish Haven">
+                        </datalist></label>
+                        <div>User In-Danger? </div>
+                        <label class="sbs"><input type="radio" name="In-Danger?" value="yes"> Yes</label><br>
+                        <label class="sbs"><input type="radio" name="In-Danger?" value="no"> No</label><br>
+                        <label class="sbs"><input type="radio" name="In-Danger?" value="maybe"> Maybe</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Comments</legend>
+                <label for="comments">Please Share Additional Information or Comments</label> 
+                <textarea id="comments" name="comments" rows="10" cols="60"></textarea>
+            </fieldset>    
+                       <input type="submit" value="Report Weather Event" class="submitBtn">
+
+        </form>
+
+
+    </main>
+
+    <footer>
+        <span id="currentdate"></span>
+        &copy; 2020 | Karen Robison | California | Terms of Use
+        
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/js/webfontload.js"></script>
+    <script src="/js/currentdate.js"></script>
+    <script src="/js/hamMenu.js"></script>
+    <script src="/lesson07/js/lazyloadjs.js"></script>
+    <script src="/lesson08/js/scripts.js"></script>
+</body>
+
+</html>

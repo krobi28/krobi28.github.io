@@ -1,0 +1,183 @@
+/* Larger viewports */
+@media only screen and (min-width: 650px) {
+   
+    /*----------- HEADER --------------*/
+     header img {
+         width: 100%;
+         height: auto;
+     }
+ /*----------- MAIN --------------*/
+     main footer {
+         width: 90%;
+         margin: auto;
+     }
+ 
+     main h2 {
+         font-size: 2.75rem;
+     }
+ 
+     div#message {
+         font-size: 1.75rem;
+         font-weight: bold;
+     }
+ 
+     .headings h1 {
+         font-size: 2rem;
+         margin: 0 0 0 17px;
+     }
+ 
+ 
+     .motto {
+         letter-spacing: .8pt;
+         font-size: .6rem;
+         margin-left: 20px;
+
+     }
+ /*----------- NAVIGATION --------------*/
+     .navigation {
+         display: flex;
+     }
+ 
+     .navigation li {
+         display: block;
+         /* needed because of state in small view */
+         flex: 1 1 100%;
+     }
+ 
+     .navigation li a {
+         color: #bdb5c5;
+         text-align: center;
+     }
+ 
+     .navigation li:first-child {
+         display: none;
+     }
+ 
+     h3 {
+         font-size: 2rem;
+ 
+     }
+ 
+     .gallery {
+         display: grid;
+         grid-template-columns:1fr 1fr;
+         grid-gap: 10px;
+     }
+
+
+     /*------------- PRESTON ------------*/
+     .weathersummary {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+
+
+     .flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     }
+
+     .section2 {
+        display: flex;
+        flex-direction: column;
+        max-width: 700px;
+        justify-content: center;
+        font-size: 1.25rem;
+        margin: auto;
+        padding: 20px;
+     }   
+
+     .col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 80%;
+        border: 2px solid #1c3144;
+    
+    }
+
+    .section3 {
+        display: block;
+        padding: 20px;
+        background-color: #b4ae99;
+        margin: auto;
+        font-size: 1.1rem;
+    }
+
+    .section3 .newsImg {
+        max-width: 40%;
+        float: right;
+        margin-top: 20px;
+       margin-left: 10px;
+       margin-bottom: 10px;
+
+   }
+
+   .section4 {
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    margin: auto;
+}
+
+.townmap {
+    display: flex;
+    height: auto;
+}
+
+
+
+      
+
+
+ 
+    /*----------- FORM ------------*/
+    
+    form label.rating {
+     display: flex;
+     flex-direction: row;
+    
+    
+ }
+/*------------------homepage -------------*/
+ div.cards {
+    display: flex;
+    flex-direction: column;
+   
+}  
+
+div.cards :nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+div.cards :nth-child(even) {
+    flex-direction: row;
+}
+
+.topstory h1 {
+    text-align: left;
+}
+
+
+
+section.topstory {
+    display: block;
+	border: 2px solid #1c3144;
+	padding: 20px;
+	margin: auto;
+	
+}
+
+section.topstory .newsImg {
+   
+    float: right;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+    
+ }
