@@ -26,15 +26,4 @@ fetch(apiURLforecast)
 
     }
 
-
-
-
-
-
-
-
-
-
-
-
   });

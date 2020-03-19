@@ -248,7 +248,7 @@ section.topstory .newsImg {
 .weathersummary {
 	position: absolute;
 	top: 2rem;
-	left: 2rem;
+	left: 5rem;
 	background-color: #1c3144;
 	border: white;
 	border-style: outset;
@@ -339,6 +339,23 @@ section.topstory .newsImg {
 
 }
 
+#eventsBox .townEvents {
+	position: absolute;
+	top: 2rem;
+	left: 2rem;
+	background-color: #1c3144;
+	border: white;
+	border-style: outset;
+	color: #bdb5c5;
+	padding: 10px;
+	box-shadow: 0 2px 15px #1c3144;
+
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+	line-height: .9;
+}
+
 .section3 {
 	display: flex;
 	flex-direction: column;
@@ -394,6 +411,30 @@ div.title h3 {
     padding: 20px;
 
 }
+
+/*-------------LAZYLOAD------------*/
+
+
+main picture {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+picture img [data-src]{
+    filter: blur(1px);
+    background-color: #bdb5c5;
+}
+
+picture img {
+    max-width: 300px;
+    height: auto;
+    transition: filter 2s;
+}
+
 
 /*------------ FORM --------------*/
 
@@ -508,7 +549,7 @@ footer {
 	width: 90%;
 	font-size: .8rem;
 	margin: auto;
-	justify-content: space-evenly;
+	text-align: center;
 }
 
 footer span {
