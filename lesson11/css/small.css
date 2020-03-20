@@ -147,7 +147,16 @@ figcaption {
 h3 {
 	text-align: center;
 	font-size: 1.5rem;
-	text-shadow: 3px 3px 5px #1c3144;
+    text-shadow: 3px 3px 5px #596f62;
+    
+}
+
+hr {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 10px;
+    color:black;
 }
 
 h4 {
@@ -311,6 +320,10 @@ section.topstory .newsImg {
     justify-content: center;
 }
 
+.flex .col {
+    background-color: #bdb5c5;
+}
+
 .col span #day1 #day2 #day3 #day4 #day5 {
 	padding: 20px;
     font-weight: bold;
@@ -339,18 +352,15 @@ section.topstory .newsImg {
 
 }
 
-#eventsBox .townEvents {
-	position: absolute;
-	top: 2rem;
-	left: 2rem;
-	background-color: #1c3144;
-	border: white;
-	border-style: outset;
+.townEvents #upcoming{
+    display: flex;
+    justify-content: center;
+    background-color: #1c3144;
+    margin: auto;
 	color: #bdb5c5;
 	padding: 10px;
 	box-shadow: 0 2px 15px #1c3144;
-
-	max-width: 100%;
+    max-width: 700px;
 	height: auto;
 	text-align: center;
 	line-height: .9;
@@ -364,6 +374,11 @@ section.topstory .newsImg {
 	padding: 20px;
 	font-size: .9rem;
 	margin: auto;
+}
+
+.section3 h3 {
+    font-size: 1.5rem;
+    font-weight: bolder;
 }
 
 

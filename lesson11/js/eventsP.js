@@ -12,16 +12,16 @@ fetch(requestURL)
         for (let i = 0; i < towns.length; i++) {
             if (towns[i].name == 'Preston') {
 
-                let townEvents = document.createElement('section');
-                let events = document.createElement('events');
-                
+                let townEvents = document.createElement('div');
 
-                events.textContent = towns[i].events;
-
+        for (let l = 0; l <= 4; l++) {
+                let events = document.createElement('p');
+                events.textContent = towns[i].events[l];
                 townEvents.appendChild(events);
-               
-                document.querySelector('.townEvents').appendChild(townEvents);
+             }
+       
+            document.querySelector('#upcoming').appendChild(townEvents);
 
-            }}
+            }
         }
     });
