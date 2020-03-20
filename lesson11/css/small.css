@@ -355,7 +355,8 @@ section.topstory .newsImg {
 .townEvents #upcoming{
     display: flex;
     justify-content: center;
-    background-color: #1c3144;
+    font-size: 1.5rem;
+    background-color: #251B32;
     margin: auto;
 	color: #bdb5c5;
 	padding: 10px;
