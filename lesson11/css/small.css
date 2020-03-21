@@ -108,6 +108,10 @@ nav {
 	font-weight: 700;
 }
 
+.responsive li {
+	display: block;
+}
+
 /*----------- MAIN --------------*/
 
 main {
@@ -194,6 +198,7 @@ main picture.myphoto img {
     margin: auto;
     display: flex;
     padding: 10px;
+    border: 2px #1c3144;
 
 
 }
