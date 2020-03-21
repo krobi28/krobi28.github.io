@@ -262,7 +262,7 @@ section.topstory .newsImg {
 .weathersummary {
 	position: absolute;
 	top: 2rem;
-	left: 5rem;
+	left: 2rem;
 	background-color: #1c3144;
 	border: white;
 	border-style: outset;
@@ -349,6 +349,10 @@ section.topstory .newsImg {
 	height: auto;
 }
 
+#disappear {
+    display: none;
+}
+
 .high {
 	display: none;
 	font-size: 60%;
@@ -360,7 +364,7 @@ section.topstory .newsImg {
 .townEvents #upcoming{
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: .9rem;
     background-color: #251B32;
     margin: auto;
 	color: #bdb5c5;
