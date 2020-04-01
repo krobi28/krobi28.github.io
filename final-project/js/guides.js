@@ -1,4 +1,4 @@
-const requestFile = 'js/guides.js';
+const requestURL = 'https://github.com/krobi28/krobi28.github.io/blob/master/guide.json';
 
 
 fetch(requestURL)
@@ -6,29 +6,39 @@ fetch(requestURL)
     return response.json();
     })
     .then(function (jsonObject) {
-        const prophets = jsonObject['prophets'];
-        console.table(prophets);  // temporary checking for valid response and data parsing
+        const guide = jsonObject['guide'];
    
 
     for (let i = 0; i < prophets.length; i++ ) {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
 
-        h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+        h2.textContent = guide[i].name;
 
         card.appendChild(h2);
 
-        let birth = document.createElement('p');
-        birth.textContent = "Birth Date: "+ prophets[i].birthdate;
-        card.appendChild(birth);
+        image.setAttribute('src', '/images/' + guide[i].photo);
+        image.setAttribute('alt', "picture of: " + h2.textContent);  
 
-        let place = document.createElement('p');
-        place.textContent = "Birth Place: "+ prophets[i].birthplace;
-        card.appendChild(place);
+        let email = document.createElement('p');
+        email.textContent = "E-Mail: "+ guide[i].email;
+        card.appendChild(email);
+
+        let certification = document.createElement('p');
+        certification.textContent = "Certificaion Level: "+ guide[i].certification;
+        card.appendChild(certification);
+
+        let yearsOfExperience = document.createElement('p');
+        yearsOfExperience.textContent = "Years of Experience: "+ guide[i].yearsOfExperience;
+        card.appendChild(yearsOfExperience);
+
+        let biographySketch = document.createElement('p');
+        biographySketch.textContent = "Biography: "+ guide[i].biographySketch;
+        card.appendChild(biographySketch);
 
         let aux = i + 1;
         let image = document.createElement('img');
-        image.setAttribute('src', prophets[i].imageurl);
+        image.setAttribute('src', guide[i].imageurl);
         image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + " - " + aux );
         
         card.appendChild(image);
