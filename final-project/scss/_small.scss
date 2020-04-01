@@ -1,0 +1,134 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*------------- BODY ---------------*/
+body {
+	font-size: 16px;
+	font-family: 'Quicksand', sans-serif;
+	color: #1d5277;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Righteous', cursive;
+    color: #9a031e; 
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #ff7700;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Righteous', cursive;
+    color: #1d5277;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: #fcc437;
+}
+
+
+/*-------------- HEADER --------------*/
+header {
+	background-color: #edffec;
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header h1 {
+	font-family: 'Righteous', cursive;
+	font-size: 3rem;
+	margin: auto;
+}
+
+/*----------- NAVIGATION --------------*/
+
+nav {
+	margin: 0;
+    background-color: #1d5277;
+    max-width: 1500px;
+    align-content: center;
+    margin: auto;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+}
+
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	color: #edffec;
+	padding: 0.75rem;
+	text-align: left;
+}
+
+.navigation .active {
+	background-color: #9a031e;
+}
+
+.navigation a:hover {
+	color: #1d5277;
+	background-color: #fcc437;
+}
+
+.responsive li {
+	display: block;
+}
+
+/*----------- MAIN --------------*/
+
+main {
+	max-width: 960px;
+	display: block;
+	padding: 20px;
+	margin: auto;
+}
+
+.callToAction {
+    display: block;
+    background-color: #1d5277;
+    padding: 20px;
+    margin: auto;
+}
+
+main picture.myphoto {
+	width: 90%;
+	margin: auto;
+}
+
+main picture.myphoto img {
+	width: 100%;
+}
+
+.weathersummary {
+	position: absolute;
+	top: 2rem;
+	left: 2rem;
+	background-color: #edffec;
+	color: #1d5277;
+	padding: 10px;
+	box-shadow: 0 2px 15px #1c3144;
+	opacity: .8;
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+	line-height: .9;
+}
+

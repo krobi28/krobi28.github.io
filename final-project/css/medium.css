@@ -1,0 +1,88 @@
+/* Larger viewports */
+@media only screen and (min-width: 650px) {
+
+header h1 {
+    font-size: 3rem;
+}
+
+header h2 {
+    font-size: 1.5rem;
+}
+
+.navigation li {
+    display: block;
+    flex: 1 1 100%;
+   
+}
+
+.navigation li a {
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+}
+
+
+.navigation li:first-child {
+    display: none;
+}
+
+.callToAction h2{
+    font-size: 1.5rem;
+}
+
+body main section.container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.section1  {
+    position: relative;
+    margin: auto;
+    max-width: 100%;
+}
+
+.weathersummary {
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+   
+}
+
+.level h3 {
+    font-size: 1.5rem;
+}
+
+.level {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+}
+
+
+.mstatement h3 {
+  font-size: 1.5rem;
+}
+
+.mstatement {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    float: right;
+
+}
+
+.table {
+    display: table;
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+
+.smallview {
+    display: none;
+}
+
+}

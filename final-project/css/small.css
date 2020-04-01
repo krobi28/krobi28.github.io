@@ -1,0 +1,359 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*------------- BODY ---------------*/
+body {
+	font-size: 16px;
+	font-family: 'Quicksand', sans-serif;
+	color: #1d5277;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Righteous', cursive;
+    color: #9a031e; 
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #ff7700;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Righteous', cursive;
+    color: #1d5277;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-family: 'Righteous', cursive;
+    color: #fcc437;
+}
+
+hr {
+    width: 100%;
+    margin: 0;
+    border-style: dashed;
+    border-width: 3px;
+    color: #1d5277;
+}
+
+
+/*-------------- HEADER --------------*/
+header {
+	background-color: #edffec;
+	padding: 10px 0;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+    
+}
+
+
+header picture img {
+    width: 125px;
+    height: auto;
+    height: auto;
+    display: flex;
+    float: right;
+    margin: 10px;
+    align-items: center;
+    
+
+}
+
+header section .headings {
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+header h1 {
+	font-family: 'Righteous', cursive;
+	font-size: 2rem;
+	margin: auto;
+}
+
+header h2 {
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-style: italic;
+    letter-spacing: .23rem;
+}
+
+/*----------- NAVIGATION --------------*/
+
+nav {
+
+    background-color: #1d5277;
+    max-width: 1500px;
+    align-content: center;
+    margin: auto;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+}
+
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	color: #edffec;
+	padding: 0.75rem;
+	text-align: left;
+}
+
+.navigation .active {
+	background-color: #9a031e;
+}
+
+.navigation a:hover {
+	color: #1d5277;
+	background-color: #fcc437;
+}
+
+.responsive li {
+	display: block;
+}
+
+/*----------- MAIN --------------*/
+
+main {
+	max-width: 960px;
+	display: block;
+	padding: 20px;
+	margin: auto;
+}
+
+.callToAction {
+    display: block;
+    background-color: #1d5277;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    max-width: 960px;
+    
+}
+
+.callToAction h4 {
+    font-size: 1.4rem;
+}
+
+.callToAction h4 a {
+    color: #fcc437;
+}
+
+
+.section1 {
+    position: relative;
+}
+
+picture.myphoto img{
+    margin: auto;
+    max-width: 100%;
+    
+   
+}
+
+.weathersummary {
+    position: absolute;
+    top: 10rem;
+    left: 2rem;
+    background-color: #edffec;
+	color: #1d5277;
+	padding: 10px;
+	box-shadow: 0 2px 15px #edffec;
+	opacity: .8;
+	max-width: 300px;
+	height: auto;
+	text-align: center;
+	line-height: .9;
+}
+
+.weathersummary p {
+	font-size: .9em;
+	margin: 5px;
+
+}
+
+.weathersummary #conditions {
+	color: #ff7700;
+	font-style: italic;
+}
+
+.weathersummary #temperature {
+	color: #ff7700;;
+	font-style: italic;
+}
+
+.weathersummary #windchill {
+	color: #ff7700;;
+	font-style: italic;
+}
+
+.weathersummary #humidity {
+	color: #ff7700;;
+	font-style: italic;
+}
+
+.weathersummary #wspeed {
+	color: #ff7700;;
+	font-style: italic;
+}
+
+.weathersummary h4 {
+    color: #9a031e;
+	text-decoration: underline #9a031e;
+	margin: 5px;
+
+}
+
+body main section.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 960px;
+    margin: auto; 
+
+}
+
+.level {
+    display: flex;
+    flex-direction: column;
+    background-color: #1d5277;
+    color: #edffec;
+    box-shadow: 0 2px 15px #1c3144;
+    max-width: 415px;
+    min-height: 500px;
+    padding: 30px;
+    text-align: center;
+}
+
+.level h4 {
+    margin: 15px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.mstatement {
+    display: flex;
+    flex-direction: column;
+    background-color: #1d5277;
+    color: #edffec;
+    box-shadow: 0 2px 15px #1c3144;
+    max-width: 415px;
+    min-height: 500px;
+    padding: 30px;
+    text-align: center;
+}
+
+.mstatement h4 {
+    margin: 15px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+
+/*-------------- FOOTER ------------*/
+
+footer {
+    background-color: #edffec;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	font-size: 1rem;
+    margin: auto;
+	
+}
+
+
+
+.table {
+    display: none;  
+  
+}
+
+table.table th {
+    font-family: 'Righteous', cursive;
+    color: #9a031e;
+    text-decoration: underline;
+    width: 200px;
+    margin: auto;
+}
+
+table.table tr {
+    text-align: center;
+}
+
+table.table td img {
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+}
+
+.smallview {
+    display: flex;
+    flex-direction: column;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+
+    font-size: 80%;
+
+}
+
+.title {
+    font-size: 1.2rem;
+    font-family: 'Righteous', cursive;
+    color: #9a031e; 
+    margin: 5px;
+    text-decoration: underline;
+    text-align: left;
+   
+
+}
+
+.content {
+    text-align: left;
+}
+
+span.titile p {
+    text-align: left;
+    margin: auto;
+}
+
+.iconSize img{
+    width: 50px;
+    height: 50px;
+    display: flexbox;
+    padding: 5px;
+    align-items: center;
+   margin: auto;
+
+}
+
+#api {
+    font-size: .8rem;
+    font-style: italic;
+}
+}
+
