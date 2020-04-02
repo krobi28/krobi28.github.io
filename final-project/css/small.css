@@ -133,6 +133,7 @@ nav {
 
 /*----------- MAIN --------------*/
 
+/*------------Home Page ------------*/
 main {
 	max-width: 960px;
 	display: block;
@@ -267,6 +268,61 @@ body main section.container {
     font-size: 1.3rem;
     text-align: center;
 }
+/*------------- Adventures Page -------------*/
+
+.adventure1 {
+    display: block;
+    background-color: #1d5277;
+    padding: 30px;
+    position: relative;
+
+}
+
+.adventures1 h4 {
+    font-size: .9rem;
+   
+}
+
+.adventure1 img {
+    position: absolute;
+    margin: 0 0 0 50px;
+    height: auto;
+	
+}
+
+.description {
+    text-align: center;
+    color: #edffec;
+    padding: 20px;
+    font-size: .7rem;
+    margin: 100px 0 0 20px;
+    
+}
+
+.howMuch {
+    border: 3px solid #fcc437;
+    clear: both;
+    overflow: hidden;
+    max-width: 30%;
+    margin: 0 0 0 100px;
+    
+
+}
+
+.howMuch p {
+    color: #fcc437;
+    text-align: center;
+
+  
+}
+
+.howMuch a {
+    background-color: #fcc437;
+    color: #1c3144;
+  
+    
+}
+
 
 
 /*-------------- FOOTER ------------*/

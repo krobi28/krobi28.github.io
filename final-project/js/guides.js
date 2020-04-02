@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/krobi28/krobi28.github.io/blob/master/guide.json';
+const requestURL = 'https://github.com/krobi28/krobi28.github.io/blob/e73aa802630be84c451fa63e0ca6f280cf452387/final-project/guide.json';
 
 
 fetch(requestURL)
@@ -20,6 +20,10 @@ fetch(requestURL)
         image.setAttribute('src', '/images/' + guide[i].photo);
         image.setAttribute('alt', "picture of: " + h2.textContent);  
 
+        let name = document.createElement('p');
+        name.textContent = "Name: "+ guide[i].name;
+        card.appendChild(name);
+
         let email = document.createElement('p');
         email.textContent = "E-Mail: "+ guide[i].email;
         card.appendChild(email);
@@ -39,7 +43,7 @@ fetch(requestURL)
         let aux = i + 1;
         let image = document.createElement('img');
         image.setAttribute('src', guide[i].imageurl);
-        image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + " - " + aux );
+        image.setAttribute('alt', guide[i].name + ' ' +  " - " + aux );
         
         card.appendChild(image);
 
