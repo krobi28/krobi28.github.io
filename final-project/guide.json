@@ -1,7 +1,7 @@
 {
     "guides": [{
             "name": "Jeff Thompson",
-            "photo": "thompson.jpg",
+            "img": "thompson.jpg",
             "certification": "IV-V",
             "yearsOfExperience": "12 Years",
             "email": "jeffthompson@gmail.com",
@@ -10,7 +10,7 @@
         },
         {
             "name": "Keith Wilson",
-            "photo": "wilson.jpg",
+            "img": "wilson.jpg",
             "certification": "VI",
             "yearsOfExperience": "15 Years",
             "email": "keithwilson@gmail.com",
@@ -19,7 +19,7 @@
         },
         {
             "name": "Ben Turner",
-            "photo": "turner.jpg",
+            "img": "turner.jpg",
             "certification": "IV-V",
             "yearsOfExperience": "8 Years",
             "email": "benturner@gmail.com",
@@ -28,7 +28,7 @@
         },
         {
             "name": "Nick Johnson",
-            "photo": "johnson.jpg",
+            "img": "johnson.jpg",
             "certification": "IV-V",
             "yearsOfExperience": "5 Years",
             "email": "nickjohnson@gmail.com",

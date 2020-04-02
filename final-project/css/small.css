@@ -323,6 +323,42 @@ body main section.container {
     
 }
 
+/*----------- GUIDES PAGE -------------*/
+
+.cards section {
+    box-shadow: 8px 8px 8px 0 #1d5277;
+    padding: 20px;
+    margin: 10px;
+    background-color: #edffec;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.cards img {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    border: 2px #1d5277;
+
+
+}
+
+.cards h2 {
+    font-size: 1.5rem;
+    padding: 5px;
+    text-decoration: underline #9a031e; 
+   
+}
+
+.cards p {
+    text-align: center;
+    margin: 2px;
+}
+
 
 
 /*-------------- FOOTER ------------*/
