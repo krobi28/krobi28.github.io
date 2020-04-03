@@ -87,14 +87,14 @@ body main section.container {
 
 /*------------- Adventures Page -------------*/
 
-.adventure1 {
+.adventures {
     display: block;
     background-color: #1d5277;
     padding: 20px; 
 
 }
 
-.adventure1 img {
+.adventures img {
     max-width: 40%;
     height: auto;
 }    

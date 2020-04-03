@@ -270,7 +270,7 @@ body main section.container {
 }
 /*------------- Adventures Page -------------*/
 
-.adventure1 {
+.adventures {
     display: block;
     background-color: #1d5277;
     padding: 30px;
@@ -278,17 +278,19 @@ body main section.container {
 
 }
 
-.adventures1 h4 {
+.adventuress h4 {
     font-size: .9rem;
    
 }
 
-.adventure1 img {
+.adventures img {
     position: absolute;
-    margin: 0 0 0 50px;
+    margin: 10px 0 0 50px;
     height: auto;
 	
 }
+
+
 
 .description {
     text-align: center;

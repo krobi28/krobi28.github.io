@@ -11,7 +11,7 @@ fetch(requestURL)
 
 
 
-        for (let i = 0; i < towns.length; i++) {
+        for (let i = 0; i < guide.length; i++) {
             if (guide[i].name == 'Jeff Thompson' || guide[i].name == 'Keith Wilson' || guide[i].name == 'Ben Turner' || guide[i].name == 'Nick Johnson') {
 
                 let card = document.createElement('section');
@@ -50,62 +50,3 @@ fetch(requestURL)
         }
 
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-------------
-
-
-for (let i = 0; i < prophets.length; i++) {
-    let card = document.createElement('section');
-    let h2 = document.createElement('h2');
-
-    h2.textContent = guide[i].name;
-
-    card.appendChild(h2);
-
-    image.setAttribute('src', '/images/' + guide[i].photo);
-    image.setAttribute('alt', "picture of: " + h2.textContent);
-
-    let name = document.createElement('p');
-    name.textContent = "Name: " + guide[i].name;
-    card.appendChild(name);
-
-    let email = document.createElement('p');
-    email.textContent = "E-Mail: " + guide[i].email;
-    card.appendChild(email);
-
-    let certification = document.createElement('p');
-    certification.textContent = "Certificaion Level: " + guide[i].certification;
-    card.appendChild(certification);
-
-    let yearsOfExperience = document.createElement('p');
-    yearsOfExperience.textContent = "Years of Experience: " + guide[i].yearsOfExperience;
-    card.appendChild(yearsOfExperience);
-
-    let biographySketch = document.createElement('p');
-    biographySketch.textContent = "Biography: " + guide[i].biographySketch;
-    card.appendChild(biographySketch);
-
-    let aux = i + 1;
-    let image = document.createElement('img');
-    image.setAttribute('src', guide[i].imageurl);
-    image.setAttribute('alt', guide[i].name + ' ' + " - " + aux);
-
-    card.appendChild(image);
-
-    document.querySelector('div.cards').appendChild(card);
-
-}
-
-}); --------------*/
