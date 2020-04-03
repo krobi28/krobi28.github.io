@@ -33,7 +33,7 @@ h4 {
 }
 
 hr {
-    width: 100%;
+    width: 99%;
     margin: 0;
     border-style: dashed;
     border-width: 3px;
@@ -361,6 +361,21 @@ body main section.container {
     margin: 2px;
 }
 
+/*------------Questions Page -------------*/
+
+.questions {
+    background-color: #edffec;
+    padding: 20px;
+}
+.questions h2 {
+    margin: 40px 0 5px 0;
+    max-width: 95%;
+}
+
+.questions p {
+    margin: 0 0 40px auto;
+    max-width: 95%;
+}
 
 
 /*-------------- FOOTER ------------*/
