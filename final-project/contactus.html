@@ -54,7 +54,64 @@
 
             </picture>
 
-         
+            <section>
+                <h2>Register with us to ask questions and receive information and discounts.</h2>
+                <form method="get" action="thanks.html">
+                    <fieldset>
+                        <legend>Tell Us About You</legend>
+                        <label class="top">Full Name (5 or more letters)<input type="text" name="fname" pattern="[A-Za-9] {1,5}"></label>
+                        <label class="top">Phone<input type="tel" name="phone" placeholder="###-###-####"></label>
+                        <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com">
+                        </label>
+                        <label class="top">Zip Code<input type="text" id="num" name="num">
+                        </label>
+                        
+                    </fieldset>
+        
+                    <fieldset>
+                        <legend>When and How Can We Serve You?</legend>
+                        <div>Date</div>
+                        <label class="info"> <input type="date" name="date">
+                            </label>
+                        <div>Which Type of Adventure?</div>    
+                            <label class="info"><input list="weatherEventlist" id="weatherEvent" name="weatherEvent">
+                            </label>
+                                <label><datalist id="weatherEventlist">
+                                    <option value="Beginner">
+                                    <option value="Mid-Level">
+                                    <option value="Advanced">
+                                </datalist></label>
+        
+                                <div>Have You Ever Been Rafting Before?</div>
+                                <label class="info" for="experience">
+                                <input list="stormRegionlist" id="stormRegion" name="stormRegion"></label>
+                                <label><datalist id="stormRegionlist">
+                                    <option value="Yes">
+                                    <option value="No">
+                    
+                                </datalist></label>
+                                <div>Who Are You Bringing on This Adventure? </div>
+                                <label class="sbs"><input type="radio" name="In-Danger?" value="family"> Family Trip</label><br>
+                                <label class="sbs"><input type="radio" name="In-Danger?" value="youth"> Church Youth Group</label><br>
+                                <label class="sbs"><input type="radio" name="In-Danger?" value="team"> Corporate Team Building</label><br>
+                                <label class="sbs"><input type="radio" name="In-Danger?" value="girls"> Girls Trip</label><br>
+                                <label class="sbs"><input type="radio" name="In-Danger?" value="boys"> Boys Trip</label><br>
+                                <label class="sbs"><input type="radio" name="In-Danger?" value="school"> School Group</label>
+        
+                    </fieldset>
+        
+                    <fieldset>
+                        <legend>Comments or Questions</legend>
+                        <label for="comments">Please Share Additional Information, Comments, or Questions.</label> 
+                        <textarea id="comments" name="comments" rows="10" cols="60"></textarea>
+                    </fieldset>    
+                               <input type="submit" value="Contact Us" class="submitBtn">
+        
+                </form>
+                
+        
+            </section>
+                
         
 
     
@@ -162,7 +219,7 @@
 <script src="js/hamMenu.js"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-<script src="/lesson11/js/webfontload.js"></script>
+<script src="js/webfontload.js"></script>
 <script src="js/weathersum.js"></script>
 
 </body>
