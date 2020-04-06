@@ -391,6 +391,31 @@ body main section.container {
 
 /*------------ Contact Us ------------*/
 
+.contact {
+   text-align: center;
+
+}
+
+.address h3{
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.address p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0 0 0 0;
+
+}
+
+.townmap{
+    display: none;
+    float: right;
+    padding: 5px;
+    margin: 5px 40px 5px 5px;
+
+}
+
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #1d5277;
@@ -399,20 +424,23 @@ form fieldset {
     font-weight: bolder; 
 }
 
+.form h2 {
+    margin: 100px 0 0 0;
+}
 
 
-form fieldset h3 {
+.form fieldset h3 {
     margin: 0 0 5px 0;
     font-size: 1.3rem;
 }
 
-form fieldset label {
+.form fieldset label {
     padding: 10px;
     font-size: 1rem;
     margin: 0 0 0 20px ;
 }
 
-form legend {
+.form legend {
     color: #ff7700;
     margin: 0 1rem;
     padding: 15px;
@@ -422,7 +450,7 @@ legend {
     color: #1d5277;
 }
 
-form label.top, form div {
+.form label.top, .form div {
     display: block;
     padding-top: 15px;
     color: #1d5277;
@@ -430,7 +458,7 @@ form label.top, form div {
 
 }
 
-form label.top input, form label.top select{
+.form label.top input, .form label.top select{
     
     display: block;
     font-size: 1rem;
@@ -439,7 +467,7 @@ form label.top input, form label.top select{
    
 }
 
-form label.rating {
+.form label.rating {
     display: flex;
     flex-direction: column;
     max-width: 200px;
@@ -456,7 +484,7 @@ textarea {
     resize: none;
 }
 
-form input.submitBtn {
+.form input.submitBtn {
     border: none;
     background-color: #1d5277;
     color: #fcc437;

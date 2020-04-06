@@ -142,5 +142,9 @@ form fieldset lable {
     font-size: 1.5rem;
 }
 
+.townmap {
+    display: flex;
+}
+
 
 }
