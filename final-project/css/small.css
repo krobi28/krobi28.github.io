@@ -280,6 +280,7 @@ body main section.container {
 
 .adventuress h4 {
     font-size: .9rem;
+    margin: 0 20px 0 10px;
    
 }
 
@@ -301,12 +302,23 @@ body main section.container {
     
 }
 
+.description p {
+    padding: 10px;
+    margin: 0px;
+}
+
+.description h4 {
+
+    padding: 10px;
+    margin: 50px 0 0 0;
+}
+
 .howMuch {
     border: 3px solid #fcc437;
     clear: both;
     overflow: hidden;
     max-width: 30%;
-    margin: 0 0 0 100px;
+    margin: auto;
     
 
 }
@@ -385,8 +397,19 @@ form fieldset {
     padding: 20px;
     font-size: 1.5rem;
     font-weight: bolder; 
+}
 
 
+
+form fieldset h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.3rem;
+}
+
+form fieldset label {
+    padding: 10px;
+    font-size: 1rem;
+    margin: 0 0 0 20px ;
 }
 
 form legend {
@@ -403,9 +426,7 @@ form label.top, form div {
     display: block;
     padding-top: 15px;
     color: #1d5277;
-    font-size: 1.2rem;
-   
-    
+    font-size: 1.2rem; 
 
 }
 
@@ -416,30 +437,6 @@ form label.top input, form label.top select{
     border: solid 1px #1d5277;
     padding: 10px;
    
-}
-
-form label.info, form div {
-    display: block;
-    padding-top: 15px;
-    color: #1d5277;
-    font-size: 1.2rem;
-}
-
-form label.info input, form label.info select{
- 
-    display: block;
-    font-size: 1rem;
-    padding: 10px;
-    border: solid 1px #1d5277;
-  
-   
-}
-
-datalist {
-    border: #1c3144;
-   
-    background-color: #edffec;
-    display: none;
 }
 
 form label.rating {

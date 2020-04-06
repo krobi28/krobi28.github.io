@@ -108,10 +108,14 @@ body main section.container {
     
 }
 
+.description h4 {
+    margin: 0 auto;
+}
+
 .howMuch {
     display: flex;
     flex-direction: row;
-    margin: 0 0 0 500px;
+    margin: 0 0 60px 500px;
     
 
 }
@@ -128,6 +132,14 @@ body main section.container {
     padding: 10px;
    
     
+}
+
+form fieldset h3 {
+    font-size: 1.5rem;
+}
+
+form fieldset lable {
+    font-size: 1.5rem;
 }
 
 
