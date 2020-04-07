@@ -487,7 +487,7 @@ legend {
     color: #1d5277;
 }
 
-.form label.top, .form div {
+.form label.top, .form div, .form label.comment {
     display: block;
     font-family: 'Righteous', cursive;
     padding-top: 10px;
@@ -496,6 +496,8 @@ legend {
     margin: 0 0 0 20px;
   
 }
+
+
 
 .form label.info, .form label.radio, .form label.who {
     margin-left:  30px;
