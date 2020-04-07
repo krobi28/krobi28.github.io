@@ -414,6 +414,11 @@ tr {
     padding: 15px;
 }
 
+.form p {
+    font-family: 'Righteous', cursive;
+    font-size: 1.3rem;
+}
+
 
 
 /*------------Questions Page -------------*/
