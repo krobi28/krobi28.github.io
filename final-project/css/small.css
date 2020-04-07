@@ -164,7 +164,7 @@ main {
     position: relative;
 }
 
-picture.myphoto img{
+section.myphoto img{
     margin: auto;
     max-width: 100%;
     
