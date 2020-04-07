@@ -527,9 +527,10 @@ legend {
 }
 
 textarea {
-    width: 100%;
+    width: 95%;
     padding: 10px 12px;
     resize: none;
+    color: #1d5277;
 }
 
 .form input.submitBtn {
