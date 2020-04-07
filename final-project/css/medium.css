@@ -100,16 +100,18 @@ table.restable {
 
 /*------------- Adventures Page -------------*/
 
-.adventures {
+section.adventures {
     display: block;
     background-color: #1d5277;
     padding: 20px; 
+    
 
 }
 
 .adventures img {
     max-width: 40%;
     height: auto;
+
 }    
 
 .description {
@@ -126,9 +128,10 @@ table.restable {
 }
 
 .howMuch {
-    display: flex;
-    flex-direction: row;
-    margin: 0 0 60px 500px;
+    max-width: 30%;
+    min-width: 25%;
+    bottom: 50px;
+    right: 100px;
     
 
 }
