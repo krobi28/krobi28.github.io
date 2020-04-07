@@ -398,9 +398,11 @@ table.restable {
     text-align: center;
 }
 
-thead.header h3{
+thead.header th{
     margin: 0 0 10px 0;
     padding: 10px;
+    font-family: 'Righteous', cursive;
+    font-size: 1.3rem;
 }
 
 table.restable,
