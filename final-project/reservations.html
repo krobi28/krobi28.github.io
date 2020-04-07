@@ -149,16 +149,16 @@
                     <fieldset>
                         <legend>Tell Us About You</legend>
                         <label class="top">
-                            <p>First Name*</p><input type="text" name="fname" pattern="[A-Za-9]" required>
+                            <div>First Name*</div><input type="text" name="fname" pattern="[A-Za-9]" required>
                         </label>
                         <label class="top">
-                            <p>Last Name*</p><input type="text" name="lname" pattern="[A-Za-9]" required>
+                            <div>Last Name*</div><input type="text" name="lname" pattern="[A-Za-9]" required>
                         </label>
                         <label class="top">
-                            <p>Phone*</p><input type="tel" name="phone" required>
+                            <div>Phone*</div><input type="tel" name="phone" required>
                         </label>
                         <label class="top">
-                            <p>Email*</p><input type="email" name="email" placeholder="someone@gmail.com" required>
+                            <div>Email*</div><input type="email" name="email" placeholder="someone@gmail.com" required>
                         </label>
 
 
@@ -166,33 +166,26 @@
 
                     <fieldset>
                         <legend>Which Trip and When?</legend>
-                        <div>
-                            <p>Start Date*</p>>
-                        </div>
-                        <label class="info"> <input type="date" name="date" required>
-                        </label>
+                      
+                            <div>Start Date*</div>
+                        <label class="info"></label><input type="date" name="date" required></label>
+                       
 
-                        <div>
-                            <p>Which Type of Adventure?</p>
-                        </div>
+                        <div>Which Type of Adventure?</div>
 
-                        <label><input type="checkbox" name="adventure" value="beginner">Beginner</label><br>
-                        <label><input type="checkbox" name="adventure" value="middle">Mid-Level</label><br>
-                        <label><input type="checkbox" name="adventure" value="advanced">Advanced</label>
+                        <label class="info"><input type="checkbox" name="adventure" value="beginner">Beginner</label><br>
+                        <label class="info"><input type="checkbox" name="adventure" value="middle">Mid-Level</label><br>
+                        <label class="info"><input type="checkbox" name="adventure" value="advanced">Advanced</label>
                       
 
-                        <div>
-                            <p>Have You Ever Been Rafting Before?</p>
-                        </div>
+                        <div>Have You Ever Been Rafting Before?</div>
 
-                        <label><input type="radio" name="experience" value="yes">Yes</label><br>
-                        <label><input type="radio" name="experience" value="no">No</label><br>
+                        <label class="radio"><input type="radio" name="experience" value="yes">Yes</label><br>
+                        <label class="radio"><input type="radio" name="experience" value="no">No</label><br>
 
 
-                        <div>
-                            <p>Who Are You Bringing on This Adventure?</p>
-                        </div>
-                        <label> <select name="who">
+                        <div>Who Are You Bringing on This Adventure?</div>
+                        <label class="who"> <select name="who">
                                 <option value="">Please Select</option>
                                 <option value="family">Family Trip</option>
                                 <option value="youth">Church Youth Group</option>
@@ -209,7 +202,7 @@
                     <fieldset>
                         <legend>Comments or Questions</legend>
                         <label for="comments">
-                            <p>Please Share Additional Information, Comments, or Questions.</p>
+                            <div>Please Share Additional Information, Comments, or Questions.</div>
                         </label>
                         <textarea id="comments" name="comments" rows="10" cols="60"></textarea>
                     </fieldset>

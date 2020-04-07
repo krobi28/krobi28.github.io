@@ -465,28 +465,13 @@ tr {
 }
 
 form fieldset {
-    margin: 2rem 0;
+    margin: 32px 0 0 0 ;
     border: 1px solid #1d5277;
     padding: 20px;
     font-size: 1.5rem;
     font-weight: bolder; 
 }
 
-.form h2 {
-    margin: 100px 0 0 0;
-}
-
-
-.form fieldset h3 {
-    margin: 0 0 5px 0;
-    font-size: 1.3rem;
-}
-
-.form fieldset label {
-    padding: 10px;
-    font-size: 1rem;
-    margin: 0 0 0 20px ;
-}
 
 .form legend {
     color: #ff7700;
@@ -500,31 +485,38 @@ legend {
 
 .form label.top, .form div {
     display: block;
-    padding-top: 15px;
+    font-family: 'Righteous', cursive;
+    padding-top: 10px;
+    padding-bottom: 5px;
     color: #1d5277;
-    font-size: 1.2rem; 
+    margin: 0 0 0 20px;
+  
+}
+
+.form label.info, .form label.radio, .form label.who {
+    margin-left:  30px;
+    margin-top: 20px;
+    padding-top: 20px;
+  
+}
+
+
+.form label.info input {
+    margin-top: 30px;
 
 }
 
-.form label.top input, .form label.top select{
+
+.form label.top input {
     
     display: block;
     font-size: 1rem;
     border: solid 1px #1d5277;
     padding: 10px;
+    margin: 0 0 0 30px;
    
 }
 
-.form label.rating {
-    display: flex;
-    flex-direction: column;
-    max-width: 200px;
-   
-}
-
-#ratingvalue {
-	margin: 0 15px;
-}
 
 textarea {
     width: 95%;
