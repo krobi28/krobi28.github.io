@@ -333,6 +333,7 @@ body main section.container {
 .howMuch a {
     background-color: #fcc437;
     color: #1c3144;
+   
   
     
 }
@@ -372,6 +373,37 @@ body main section.container {
     text-align: center;
     margin: 2px;
 }
+
+/*--------------Reservations Page ------------*/
+
+header.hborder h3{
+    font-size: 1.2rem;
+}
+
+table.restable {
+    display: none;
+    border: 1px #1d5277;
+    font-size: 1.25em;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+thead.header h3{
+    margin: 0 0 10px 0;
+    padding: 10px;
+}
+
+table.restable,
+th,
+td,
+tr {
+    border: 2px solid #1d5277;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+
 
 /*------------Questions Page -------------*/
 
@@ -511,9 +543,19 @@ footer {
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
-	font-size: 1rem;
+	font-size: .7rem;
     margin: auto;
+    max-width: 1500px;
 	
+}
+
+footer tbody.padding tr td {
+    padding: 5px;
+}
+
+.table thead tr th {
+    font-size: 1rem;
+    padding: 5px;
 }
 
 

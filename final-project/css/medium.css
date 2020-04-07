@@ -74,6 +74,17 @@ body main section.container {
 
 }
 
+/*------------- Reservations Page -------------*/
+
+header.hborder h3{
+    font-size: 1.5rem;
+}
+
+table.restable {
+    display: table;
+}
+
+
 .table {
     display: table;
     border-collapse: collapse;
@@ -84,6 +95,8 @@ body main section.container {
 .smallview {
     display: none;
 }
+
+
 
 /*------------- Adventures Page -------------*/
 
@@ -134,6 +147,7 @@ body main section.container {
     
 }
 
+/*-------------- Contact Us Page ----------*/
 form fieldset h3 {
     font-size: 1.5rem;
 }
