@@ -349,7 +349,7 @@ section.adventures {
 
 /*----------- GUIDES PAGE -------------*/
 
-.cards section {
+.guides section {
     box-shadow: 8px 8px 8px 0 #1d5277;
     padding: 20px;
     margin: 10px;
@@ -360,7 +360,7 @@ section.adventures {
     
 }
 
-.cards img {
+.guides img {
     width: 60%;
     height: auto;
     margin: auto;
@@ -371,14 +371,14 @@ section.adventures {
 
 }
 
-.cards h2 {
+.guides h2 {
     font-size: 1.5rem;
     padding: 5px;
     text-decoration: underline #9a031e; 
    
 }
 
-.cards p {
+.guides p {
     text-align: center;
     margin: 2px;
 }
