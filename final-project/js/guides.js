@@ -8,7 +8,7 @@ fetch(requestURL)
     .then(function (jsonObject) {
         const guide = jsonObject['guide.json'];*/
 
-let requestURL = 'https://github.com/krobi28/krobi28.github.io/blob/master/final-project/guide.json';
+let requestURL = 'https://github.com/krobi28/krobi28.github.io/blob/master/final-project/guides.json';
 
 let request = new XMLHttpRequest();
 

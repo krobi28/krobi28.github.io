@@ -1,5 +1,13 @@
 /* Largest viewports */
 @media only screen and (min-width: 900px) {
 
+    .image {
+        display: flex;
+        position: absolute;
+        margin-top: 700px;
+        margin-left: 550px;
+        box-shadow: 5px 5px 0 0 #1d5277;
+       
     
+    }
 }

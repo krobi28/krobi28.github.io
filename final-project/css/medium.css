@@ -96,6 +96,17 @@ table.restable {
     display: none;
 }
 
+.form {
+    position: relative;
+}
+
+.image {
+    display: none;
+  
+   
+
+}
+
 
 
 /*------------- Adventures Page -------------*/
