@@ -1,18 +1,14 @@
-
-
-
-
 /*------------- BODY ---------------*/
 body {
-	font-size: 16px;
-	font-family: 'Quicksand', sans-serif;
-	color: #1d5277;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    color: #1d5277;
 }
 
 h1 {
     font-size: 2rem;
     font-family: 'Righteous', cursive;
-    color: #9a031e; 
+    color: #9a031e;
 }
 
 h2 {
@@ -43,14 +39,14 @@ hr {
 
 /*-------------- HEADER --------------*/
 header {
-	background-color: #edffec;
-	padding: 10px 0;
-	display: flex;
-	align-items: center;
+    background-color: #edffec;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
     justify-content: center;
     margin: auto;
-    
-    
+
+
 }
 
 
@@ -62,21 +58,21 @@ header picture img {
     float: right;
     margin: 10px;
     align-items: center;
-    
+
 
 }
 
 header section .headings {
     display: flex;
     flex-direction: column;
-    
-   
+
+
 }
 
 header h1 {
-	font-family: 'Righteous', cursive;
-	font-size: 2rem;
-	margin: auto;
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
+    margin: auto;
 }
 
 header h2 {
@@ -97,48 +93,48 @@ nav {
 }
 
 .navigation {
-	list-style: none;
-	padding: 0;
-	margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
 }
 
 
 .navigation li:first-child {
-	display: block;
+    display: block;
 }
 
 .navigation li {
-	display: none;
+    display: none;
 }
 
 .navigation a {
-	display: block;
-	color: #edffec;
-	padding: 0.75rem;
-	text-align: left;
+    display: block;
+    color: #edffec;
+    padding: 0.75rem;
+    text-align: left;
 }
 
 .navigation .active {
-	background-color: #9a031e;
+    background-color: #9a031e;
 }
 
 .navigation a:hover {
-	color: #1d5277;
-	background-color: #fcc437;
+    color: #1d5277;
+    background-color: #fcc437;
 }
 
 .responsive li {
-	display: block;
+    display: block;
 }
 
 /*----------- MAIN --------------*/
 
 /*------------Home Page ------------*/
 main {
-	max-width: 960px;
-	display: block;
-	padding: 20px;
-	margin: auto;
+    max-width: 960px;
+    display: block;
+    padding: 20px;
+    margin: auto;
 }
 
 .callToAction {
@@ -148,7 +144,7 @@ main {
     margin: auto;
     text-align: center;
     max-width: 960px;
-    
+
 }
 
 .callToAction h4 {
@@ -164,12 +160,12 @@ main {
     position: relative;
 }
 
-.myphoto img{
+.myphoto img {
     margin: auto;
     max-width: 100%;
     color: #edffec;
-    
-   
+
+
 }
 
 .weathersummary {
@@ -177,51 +173,55 @@ main {
     top: 10rem;
     left: 2rem;
     background-color: #edffec;
-	color: #1d5277;
-	padding: 10px;
-	box-shadow: 0 2px 15px #edffec;
-	opacity: .8;
-	max-width: 300px;
-	height: auto;
-	text-align: center;
-	line-height: .9;
+    color: #1d5277;
+    padding: 10px;
+    box-shadow: 0 2px 15px #edffec;
+    opacity: .8;
+    max-width: 300px;
+    height: auto;
+    text-align: center;
+    line-height: .9;
 }
 
 .weathersummary p {
-	font-size: .9em;
-	margin: 5px;
+    font-size: .9em;
+    margin: 5px;
 
 }
 
 .weathersummary #conditions {
-	color: #ff7700;
-	font-style: italic;
+    color: #ff7700;
+    font-style: italic;
 }
 
 .weathersummary #temperature {
-	color: #ff7700;;
-	font-style: italic;
+    color: #ff7700;
+    ;
+    font-style: italic;
 }
 
 .weathersummary #windchill {
-	color: #ff7700;;
-	font-style: italic;
+    color: #ff7700;
+    ;
+    font-style: italic;
 }
 
 .weathersummary #humidity {
-	color: #ff7700;;
-	font-style: italic;
+    color: #ff7700;
+    ;
+    font-style: italic;
 }
 
 .weathersummary #wspeed {
-	color: #ff7700;;
-	font-style: italic;
+    color: #ff7700;
+    ;
+    font-style: italic;
 }
 
 .weathersummary h4 {
     color: #9a031e;
-	text-decoration: underline #9a031e;
-	margin: 5px;
+    text-decoration: underline #9a031e;
+    margin: 5px;
 
 }
 
@@ -230,7 +230,7 @@ body main section.container {
     flex-direction: column;
     align-items: center;
     max-width: 960px;
-    margin: auto; 
+    margin: auto;
 
 }
 
@@ -269,6 +269,7 @@ body main section.container {
     font-size: 1.3rem;
     text-align: center;
 }
+
 /*------------- Adventures Page -------------*/
 
 section.adventures {
@@ -279,14 +280,14 @@ section.adventures {
     max-width: 960px;
     min-height: 375px;
     position: relative;
- 
+
 
 }
 
 .adventuress h4 {
     font-size: .9rem;
     margin: 0 20px 0 10px;
-   
+
 }
 
 .adventures img {
@@ -304,7 +305,7 @@ section.adventures {
     padding: 20px;
     font-size: .7rem;
     margin: 100px 0 0 20px;
-    
+
 }
 
 .description p {
@@ -324,8 +325,8 @@ section.adventures {
     border: 3px solid #fcc437;
     display: flex;
     flex-direction: row;
-   
-    
+
+
 
 }
 
@@ -335,7 +336,7 @@ section.adventures {
 
 
 
-  
+
 }
 
 .howMuch a {
@@ -344,7 +345,7 @@ section.adventures {
     padding: 10px;
     justify-content: center;
 
-    
+
 }
 
 /*----------- GUIDES PAGE -------------*/
@@ -356,8 +357,8 @@ section.adventures {
     background-color: #edffec;
     display: flex;
     flex-direction: column;
-    
-    
+
+
 }
 
 .guides img {
@@ -374,8 +375,8 @@ section.adventures {
 .guides h2 {
     font-size: 1.5rem;
     padding: 5px;
-    text-decoration: underline #9a031e; 
-   
+    text-decoration: underline #9a031e;
+
 }
 
 .guides p {
@@ -385,7 +386,7 @@ section.adventures {
 
 /*--------------Reservations Page ------------*/
 
-header.hborder h3{
+header.hborder h3 {
     font-size: 1.2rem;
 }
 
@@ -398,7 +399,7 @@ table.restable {
     text-align: center;
 }
 
-thead.header th{
+thead.header th {
     margin: 0 0 10px 0;
     padding: 10px;
     font-family: 'Righteous', cursive;
@@ -416,7 +417,7 @@ tr {
 
 .image {
     display: none;
-    
+
 }
 
 .form p {
@@ -432,6 +433,7 @@ tr {
     background-color: #edffec;
     padding: 20px;
 }
+
 .questions h2 {
     margin: 40px 0 5px 0;
     max-width: 95%;
@@ -445,11 +447,11 @@ tr {
 /*------------ Contact Us ------------*/
 
 .contact {
-   text-align: center;
+    text-align: center;
 
 }
 
-.address h3{
+.address h3 {
     text-align: center;
     margin: 20px 0 0 0;
 }
@@ -461,7 +463,7 @@ tr {
 
 }
 
-.townmap{
+.townmap {
     display: none;
     float: right;
     padding: 5px;
@@ -474,11 +476,11 @@ tr {
 }
 
 form fieldset {
-    margin: 32px 0 0 0 ;
+    margin: 32px 0 0 0;
     border: 1px solid #1d5277;
     padding: 20px;
     font-size: 1.5rem;
-    font-weight: bolder; 
+    font-weight: bolder;
 }
 
 
@@ -492,23 +494,27 @@ legend {
     color: #1d5277;
 }
 
-.form label.top, .form div, .form label.comment {
+.form label.top,
+.form div,
+.form label.comment {
     display: block;
     font-family: 'Righteous', cursive;
     padding-top: 10px;
     padding-bottom: 5px;
     color: #1d5277;
     margin: 0 0 0 20px;
-  
+
 }
 
 
 
-.form label.info, .form label.radio, .form label.who {
-    margin-left:  30px;
+.form label.info,
+.form label.radio,
+.form label.who {
+    margin-left: 30px;
     margin-top: 20px;
     padding-top: 20px;
-  
+
 }
 
 
@@ -519,13 +525,13 @@ legend {
 
 
 .form label.top input {
-    
+
     display: block;
     font-size: 1rem;
     border: solid 1px #1d5277;
     padding: 10px;
     margin: 0 0 0 30px;
-   
+
 }
 
 
@@ -540,7 +546,7 @@ textarea {
     border: none;
     background-color: #1d5277;
     color: #fcc437;
-    
+
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
     width: 96%;
@@ -560,13 +566,13 @@ textarea {
 
 footer {
     background-color: #edffec;
-	padding: 20px;
-	display: flex;
-	flex-direction: column;
-	font-size: .7rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: .7rem;
     margin: auto;
     max-width: 1500px;
-	
+
 }
 
 footer tbody.padding tr td {
@@ -581,8 +587,8 @@ footer tbody.padding tr td {
 
 
 .table {
-    display: none;  
-  
+    display: none;
+
 }
 
 table.table th {
@@ -621,11 +627,11 @@ table.table td img {
 .title {
     font-size: 1.2rem;
     font-family: 'Righteous', cursive;
-    color: #9a031e; 
+    color: #9a031e;
     margin: 5px;
     text-decoration: underline;
     text-align: left;
-   
+
 
 }
 
@@ -638,13 +644,13 @@ span.titile p {
     margin: auto;
 }
 
-.iconSize img{
+.iconSize img {
     width: 50px;
     height: 50px;
-   
+
     padding: 5px;
     align-items: center;
-   margin: auto;
+    margin: auto;
 
 }
 
@@ -652,5 +658,3 @@ span.titile p {
     font-size: .8rem;
     font-style: italic;
 }
-
-
