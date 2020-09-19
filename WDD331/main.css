@@ -1,0 +1,114 @@
+@import     url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body div{
+  background-color: black;
+  display: flex;
+  felx-direction: column;
+  margin: auto;
+    
+  
+}
+
+h1, h2 {
+  font-family: 'Lora', serif;
+  
+}
+
+header {
+  background-color: #6495ED;
+  color: #FAEBD7;
+  text-align: right;
+  margin: 0;
+  text-decoration: none;
+  flex: 25%;
+  
+  
+}
+
+
+nav, ul, li, a {
+  list-style: none;
+  color: #faebd7;
+  text-decoration: none;
+  padding: 2px;
+   
+}
+
+main {
+  background-color: #FAEBD7;
+  padding: 2rem;
+  
+}
+
+article {
+  background-color: white;
+  margin: 2rem auto;
+  padding: 2rem;
+  box-shadow: 5px 5px 5px gray;
+  
+}
+
+.post-date {
+  color: gray;
+  background-color: white;
+}
+
+.post-content a {
+  color: black;
+  
+}
+
+
+/*nav links*/
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+nav a:active {
+  color: #DEB887;
+}
+
+/*other page links*/
+
+a:link, a:visted {
+  color: #6495ed;
+  text-decoration: none;
+}
+
+a:active {
+  color: deb887;
+  text-decoration: none;
+}
+
+a:hover {
+  color: deb887;
+  text-decoration: underline;
+}
+/*article title links*/
+
+.post-content a:hover {
+  color: #6495ed;
+  text-decoration: underline;
+}
+
+.post-content a:active {
+  color: #deb887;
+  
+}
+
+
+
+/*Media Query*/
+@media only screen and (max-width: 760px) {
+  
+body div {
+    display: block;
+  }
+
+}
