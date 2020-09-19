@@ -1,17 +1,15 @@
 @import     url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
 body {
+  font-family: Helvetica, Arial, sans-serif;
   margin: 0;
-  font-family: 'Arial', sans-serif;
 }
 
 body div{
   background-color: black;
   display: flex;
-  felx-direction: column;
   margin: auto;
     
-  
 }
 
 h1, h2 {
@@ -21,11 +19,11 @@ h1, h2 {
 
 header {
   background-color: #6495ED;
-  color: #FAEBD7;
   text-align: right;
   margin: 0;
   text-decoration: none;
   flex: 25%;
+  padding: 3rem;
   
   
 }
@@ -33,7 +31,7 @@ header {
 
 nav, ul, li, a {
   list-style: none;
-  color: #faebd7;
+  color: #deb887;
   text-decoration: none;
   padding: 2px;
    
@@ -50,6 +48,7 @@ article {
   margin: 2rem auto;
   padding: 2rem;
   box-shadow: 5px 5px 5px gray;
+
   
 }
 
@@ -65,30 +64,34 @@ article {
 
 
 /*nav links*/
-nav a:hover {
+
+h1 a:link, a:visited {
+  color: #faebd7;
+  
+}
+
+h1 a:active {
+    color: #deb887;
+}
+
+h1 a:hover {
   color: white;
   text-decoration: underline;
 }
 
-nav a:active {
-  color: #DEB887;
-}
-
 /*other page links*/
-
-a:link, a:visted {
-  color: #6495ed;
-  text-decoration: none;
+ul li a:link, ul li a:visited{
+  color: #faebd7;
+  
 }
 
-a:active {
-  color: deb887;
-  text-decoration: none;
-}
-
-a:hover {
-  color: deb887;
+ul li a:hover {
+  color: white;
   text-decoration: underline;
+}
+
+p a:link {
+    color: #6495ed;
 }
 /*article title links*/
 
@@ -109,6 +112,11 @@ a:hover {
   
 body div {
     display: block;
+    margin-right: 2rem;
   }
+
+  figure, img {
+    width: 75%
+  }  
 
 }
