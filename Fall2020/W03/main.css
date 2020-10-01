@@ -1,20 +1,25 @@
-@import     url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
+figure {
+  max-width: 960px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
 
 body {
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Helvetica", Arial, sans-serif;
 }
 
-body div{
-  background-color: black;
+body div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: auto;
-    
 }
 
-h1, h2 {
-  font-family: 'Lora', serif;
-  
+h1,
+h2 {
+  font-family: "Lora", serif;
 }
 
 header {
@@ -22,34 +27,33 @@ header {
   text-align: right;
   margin: 0;
   text-decoration: none;
-  flex: 25%;
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
   padding: 3rem;
-  
-  
 }
 
-
-nav, ul, li, a {
+nav,
+ul,
+li,
+a {
   list-style: none;
-  color: #deb887;
+  color: #DEB887;
   text-decoration: none;
   padding: 2px;
-   
 }
 
 main {
   background-color: #FAEBD7;
   padding: 2rem;
-  
 }
 
 article {
   background-color: white;
   margin: 2rem auto;
   padding: 2rem;
-  box-shadow: 5px 5px 5px gray;
-
-  
+  -webkit-box-shadow: 5px 5px 5px gray;
+          box-shadow: 5px 5px 5px gray;
 }
 
 .post-date {
@@ -57,21 +61,24 @@ article {
   background-color: white;
 }
 
-.post-content a {
-  color: black;
-  
+.post-content {
+  max-width: 960px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
 }
 
+.post-content a {
+  color: black;
+}
 
 /*nav links*/
-
-h1 a:link, a:visited {
+h1 a:link,
+h1 a:visited {
   color: #faebd7;
-  
 }
 
 h1 a:active {
-    color: #deb887;
+  color: #deb887;
 }
 
 h1 a:hover {
@@ -80,9 +87,9 @@ h1 a:hover {
 }
 
 /*other page links*/
-ul li a:link, ul li a:visited{
+ul li a:link,
+ul li a:visited {
   color: #faebd7;
-  
 }
 
 ul li a:hover {
@@ -91,10 +98,10 @@ ul li a:hover {
 }
 
 p a:link {
-    color: #6495ed;
+  color: #6495ed;
 }
-/*article title links*/
 
+/*article title links*/
 .post-content a:hover {
   color: #6495ed;
   text-decoration: underline;
@@ -102,21 +109,16 @@ p a:link {
 
 .post-content a:active {
   color: #deb887;
-  
 }
-
-
 
 /*Media Query*/
 @media only screen and (max-width: 760px) {
-  
-body div {
+  body div {
     display: block;
     margin-right: 2rem;
   }
-
-  figure, img {
-    width: 75%
-  }  
-
+  figure img {
+    width: 75%;
+  }
 }
+/*# sourceMappingURL=main.css.map */

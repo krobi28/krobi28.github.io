@@ -1,55 +1,79 @@
-@import     url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+//colors
+$body-background-color: #FAEBD7;
+$article-background-color: white;
+$header-background-color: #6495ED;
+$header-text: #DEB887;
+$article-text: black;
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+$header-font: 'Lora',
+serif;
+$body-font: 'Helvetica',
+Arial,
+sans-serif;
+
+//mixins
+@mixin center {
+  max-width: 960px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+
+figure {
+  @include center;
+}
 
 body {
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: $body-font;
 }
 
-body div{
-  background-color: black;
+body div {
   display: flex;
   margin: auto;
-    
+
 }
 
-h1, h2 {
-  font-family: 'Lora', serif;
-  
+h1,
+h2 {
+  font-family: $header-font;
+
 }
 
 header {
-  background-color: #6495ED;
+  background-color: $header-background-color;
   text-align: right;
   margin: 0;
   text-decoration: none;
   flex: 25%;
   padding: 3rem;
-  
-  
+
 }
 
-
-nav, ul, li, a {
+nav,
+ul,
+li,
+a {
   list-style: none;
-  color: #deb887;
+  color: $header-text;
   text-decoration: none;
   padding: 2px;
-   
+
 }
 
 main {
-  background-color: #FAEBD7;
+  background-color: $body-background-color;
   padding: 2rem;
-  
+
 }
 
 article {
-  background-color: white;
+  background-color: $article-background-color;
   margin: 2rem auto;
   padding: 2rem;
   box-shadow: 5px 5px 5px gray;
 
-  
 }
 
 .post-date {
@@ -57,42 +81,53 @@ article {
   background-color: white;
 }
 
-.post-content a {
-  color: black;
-  
-}
+.post-content {
+  @include center;
 
+  a {
+    color: black;
+  }
+
+}
 
 /*nav links*/
 
-h1 a:link, a:visited {
-  color: #faebd7;
-  
-}
+h1 {
 
-h1 a:active {
+  a:link,
+  a:visited {
+    color: #faebd7;
+  }
+
+  a:active {
     color: #deb887;
-}
+  }
 
-h1 a:hover {
-  color: white;
-  text-decoration: underline;
+  a:hover {
+    color: white;
+    text-decoration: underline;
+  }
 }
 
 /*other page links*/
-ul li a:link, ul li a:visited{
-  color: #faebd7;
-  
-}
+ul li {
 
-ul li a:hover {
-  color: white;
-  text-decoration: underline;
+  a:link,
+  a:visited {
+    color: #faebd7;
+
+  }
+
+  a:hover {
+    color: white;
+    text-decoration: underline;
+  }
 }
 
 p a:link {
-    color: #6495ed;
+  color: #6495ed;
 }
+
 /*article title links*/
 
 .post-content a:hover {
@@ -102,21 +137,21 @@ p a:link {
 
 .post-content a:active {
   color: #deb887;
-  
-}
 
+}
 
 
 /*Media Query*/
 @media only screen and (max-width: 760px) {
-  
-body div {
+
+  body div {
     display: block;
     margin-right: 2rem;
   }
 
-  figure, img {
+  figure img {
     width: 75%
-  }  
+  }
 
 }
+
