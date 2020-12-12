@@ -1,0 +1,63 @@
+.main.supporting {
+  display: block;
+}
+
+div.page-wrapper {
+  font-family: $primary-font;
+  margin: 1%;
+  padding: 3%;
+  height: 100%;
+  z-index: 1;
+  margin-block-end: 1.2em;
+}
+
+.summary {
+  background: rgba($color-7, 0.8);
+}
+
+div.summary p {
+  font-size: .8em;
+  color: $color-1;
+  padding: .5em;
+  width: 60%;
+  margin-block-end: 1.2em;
+}
+
+div {
+
+  .preamble,
+  .explanation,
+  .participation,
+  .benefits,
+  .requirements {
+    max-width: 100%;
+    line-height: 1.7em;
+  }
+
+  .preamble,
+  .participation,
+  .requirements {
+    background-color: $color-6;
+    padding: 1em;
+    background: rgba($color-6, 0.8);
+    margin-block-end: 1.2em;
+  }
+
+  .explanation,
+  .benefits {
+    background-color: $color-7;
+    padding: 1em;
+    background: rgba($color-7, 0.8);
+    margin-block-end: 1.2em;
+  }
+
+  .requirements {
+    margin-bottom: 100px;
+  }
+
+  .requirements p:last-child {
+    border-top: 2px solid $color-4;
+    margin-top: 1.5em;
+    padding-top: 1em;
+  }
+}
